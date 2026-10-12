@@ -7,18 +7,19 @@ class LessonPlanner(private val words: List<Word>) {
 
     enum class Mode { CONTINUE, REVIEW }
 
-    /** „Zaczynamy”: kilka powtórek zaległych słów, reszta to nowe słowa wg rosnącej trudności. */
+    /**
+     * „Zaczynamy”: stały program – nowe słowa w tej samej, powtarzalnej kolejności (poziomy trudności rosnąco,
+     * w obrębie poziomu na przemian kategorie). Powtórki są osobno w trybie „Powtarzamy”, więc kolejność
+     * nie zmienia się między uruchomieniami; zmienia się tylko to, że ukończone słowa zostają za nami.
+     */
     fun next(progress: Map<String, WordProgress>, now: Long, size: Int = ROUND_SIZE): List<Word> {
-        val dueReviews = words.filter { learned(progress[it.id]) && progress.getValue(it.id).nextDue <= now }
-            .sortedBy { progress.getValue(it.id).nextDue }
-            .take(size / 3)
-        val fresh = interleavedNew(words, progress).take(size - dueReviews.size)
-        val fill = if (dueReviews.size + fresh.size < size) {
-            words.filter { learned(progress[it.id]) && it !in dueReviews }
-                .sortedBy { progress.getValue(it.id).lastPracticed }
-                .take(size - dueReviews.size - fresh.size)
-        } else emptyList()
-        return dueReviews + fresh + fill
+        val fresh = interleavedNew(words, progress).take(size)
+        if (fresh.size >= size) return fresh
+        // Wszystko już poznane: dopełniamy najdawniej ćwiczonymi.
+        val fill = words.filter { learned(progress[it.id]) }
+            .sortedBy { progress.getValue(it.id).lastPracticed }
+            .take(size - fresh.size)
+        return fresh + fill
     }
 
     /** Wybrana kategoria: nowe słowa (łatwe najpierw), potem te ćwiczone najdawniej. */

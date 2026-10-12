@@ -50,12 +50,12 @@ class LessonPlannerTest {
         assertEquals(r.size, r.map { it.id }.distinct().size)
     }
 
-    @Test fun `poznane slowa nie wracaja jako nowe, zalegle wracaja jako powtorka`() {
+    @Test fun `poznane slowa nie wracaja jako nowe, a kolejnosc jest stala`() {
         val p = mapOf("1" to Mastery.afterCompletion(null, "1", 0, 0))
-        val soon = planner.next(p, now = 0, size = 3)
-        assertFalse(soon.any { it.id == "1" })
-        val later = planner.next(p, now = Long.MAX_VALUE / 2, size = 3)
-        assertEquals("1", later.first().id)
+        val a = planner.next(p, now = 0, size = 5)
+        assertFalse(a.any { it.id == "1" })
+        assertEquals(a, planner.next(p, now = Long.MAX_VALUE / 2, size = 5))
+        assertEquals(planner.next(emptyMap(), 0, 8), planner.next(emptyMap(), 123, 8))
     }
 
     @Test fun `powtarzanie to tylko slowa juz napisane`() {
