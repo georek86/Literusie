@@ -1,5 +1,7 @@
 <resources>
-    <style name="Theme.Slowomistrz" parent="android:Theme.Material.NoActionBar">
-        <item name="android:windowBackground">@color/background_dark</item>
+    <style name="Theme.Literusie" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/cream</item>
+        <item name="android:statusBarColor">@color/cream</item>
+        <item name="android:navigationBarColor">@color/cream</item>
     </style>
 </resources>

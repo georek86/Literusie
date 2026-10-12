@@ -1,99 +1,94 @@
-# Literusie — Polska aplikacja edukacyjna dla dzieci na Android TV
+# Literusie
 
-Aplikacja edukacyjna na platformę **Android TV**, stworzona specjalnie dla 5-letnich dzieci, wspierająca naukę języka polskiego, czytania i pisania na fizycznej klawiaturze.
+Polska aplikacja edukacyjna dla dzieci (ok. 5 lat) na **Android TV**. Dziecko ogląda ilustrację, słyszy polskie
+słowo i **wpisuje je literka po literce na fizycznej klawiaturze** podłączonej do telewizora.
+Bez internetu, kont, reklam, zakupów i bez żadnych uprawnień.
 
----
+## Stan projektu (uczciwie)
 
-## 1. Wymagania systemowe i sprzętowe
+| Obszar | Stan |
+|---|---|
+| Baza słów | **604 słowa**, każde z własną ilustracją (nie 5000 – patrz niżej) |
+| Logika nauki, normalizacja polskich znaków, zapis postępów | gotowe, **testy jednostkowe przechodzą** (JVM) |
+| Interfejs (menu, kategorie, nauka, postępy, ustawienia) | gotowy; testy UI na JVM/Compose Desktop. **Łącznie 71 testów (jednostkowe + UI) przechodzi** (`cd tools/desktop-harness && gradle test`). Zrzuty: `docs/screens` |
+| Budowa APK na Android TV | **nie zweryfikowana w tym środowisku** – brak dostępu do Android SDK / Google Maven. Wymaga uruchomienia u siebie (instrukcja niżej) |
+| Test na prawdziwym telewizorze / klawiaturze / głosie TTS | **niewykonany** (brak sprzętu) |
 
-- **Platforma**: Android TV / Google TV (minSdk 26 — Android 8.0 Oreo, targetSdk 34 — Android 14)
-- **Ekran**: Zoptymalizowany dla 1920 × 1080 (Full HD) oraz 4K
-- **Sterowanie**:
-  - Fizyczna klawiatura USB lub Bluetooth (główny kanał wprowadzania liter)
-  - Pilot telewizyjny D-Pad (strzałki, przycisk OK/Center, przycisk Back)
-- **Dźwięk**: Systemowy Android TextToSpeech z zainstalowanym polskim głosem (np. Google TTS)
-- **Pamięć i offline**: Aplikacja działa w 100% offline, bez konieczności połączenia z Internetem, bez konta i bez reklam
+### Dlaczego 604, a nie 5000 słów
+Pierwotna baza „5000 słów” była nieużyteczna: pochodziła z listy częstości z napisów filmowych (imiona angielskie jak
+OSCAR, JOHNSON, BISHOP, formy odmienione, spójniki „przy”, „jestem”), kategorie były przypisane przypadkowo, a „ilustracje”
+były szablonem z jedną literą. Została **usunięta**. Nowa baza zawiera wyłącznie słowa, które dziecko zna i które da się
+pokazać na obrazku. Rozszerzenie do kilku tysięcy wymaga nowych, spójnych ilustracji (patrz „Dalszy rozwój”).
 
----
+## Struktura
 
-## 2. Najważniejsze funkcje i architektura
-
-1. **Baza 5000 unikalnych, zweryfikowanych polskich słów**:
-   - Podział na 23 kategorie edukacyjne (m.in. zwierzęta, dom, rodzina, owoce i warzywa, pojazdy, czynności itp.)
-   - 4 stopnie trudności: od krótkich 3-literowych słówek po dłuższe pojęcia
-   - Zawiera obowiązkowe słowa kontrolne: **ĆMA**, **ŻABA**, **ŁÓDŹ**, **GĘŚ**, **ŹREBAK**
-   - 100% poprawności ortograficznej i zgodności ze słownikiem języka polskiego (SJP)
-2. **Klawiatura fizyczna i tolerancja polskich znaków**:
-   - Dziecko może wpisywać słowa bez polskich znaków diakrytycznych:
-     - `Ą` → `A`, `Ć` → `C`, `Ę` → `E`, `Ł` → `L`, `Ń` → `N`, `Ó` → `O`, `Ś` → `S`, `Ź`/`Ż` → `Z`
-   - Np. dla słowa `ŻABA` dziecko może wpisać `Z` `A` `B` `A` lub `Ż` `A` `B` `A`
-   - Niewrażliwość na wielkość liter (Caps Lock / małe litery)
-   - Pełna obsługa klawisza `Backspace`
-3. **Mowa i dźwięk (TextToSpeech)**:
-   - Wyraźne, spokojne tempo odczytu słów (0.85x)
-   - Przycisk ponownego odsłuchania na ekranie
-   - Płynne zarządzanie kolejką mowy (brak nakładania się dźwięków)
-4. **Ilustracje edukacyjne**:
-   - Komplet 5000 wektorowych ilustracji SVG osadzonych lokalnie w aplikacji
-   - Ostre w każdej rozdzielczości telewizora (1080p, 4K)
-5. **Lokalna baza postępów (Room Database)**:
-   - Licznik ukończonych i opanowanych słówek
-   - Bezpieczeństwo i prywatność: brak wysyłania jakichkolwiek danych na zewnątrz
-
----
-
-## 3. Struktura projektu
-
-- `app/src/main/java/pl/slowomistrz/app/`
-  - `domain/normalizer/PolishCharNormalizer.kt`: Normalizator znaków diakrytycznych
-  - `domain/engine/TypingEngine.kt`: Silnik sekwencyjnego wprowadzania liter
-  - `domain/engine/LearningSessionManager.kt`: Zarządzanie sesją nauki
-  - `domain/model/`: Modele `WordItem`, `WordProgress`, `WordInputState`
-  - `data/local/`: Baza Room `SlowomistrzDatabase`, encja `WordProgressEntity`, DAO `WordProgressDao`
-  - `data/repository/WordRepository.kt`: Repozytorium 5000 słów
-  - `media/PolishTtsManager.kt`: Zarządca Android TextToSpeech z obsługą języka polskiego
-  - `ui/theme/`: Kolory, typografia przystosowana do TV 1080p i motyw ciemny
-  - `ui/components/`: Komponenty `WordIllustration`, `WordLetterSlotsRow`, `TvInteractiveButton`
-  - `ui/screens/`: Ekrany `MainMenuScreen`, `LearningScreen`, `CategorySelectionScreen`, `ProgressScreen`
-  - `MainActivity.kt`: Główna aktywność obsługująca Android TV i nawigację
-- `app/src/main/assets/`
-  - `words_database.json`: Baza 5000 słów w formacie JSON
-  - `illustrations/`: 5000 wektorowych grafik SVG
-
----
-
-## 4. Instrukcja instalacji na telewizorze Android TV
-
-### Krok 1: Włączenie opcji programisty na Android TV
-1. Na telewizorze przejdź do: **Ustawienia** → **System** → **Informacje**.
-2. Kliknij 7 razy pozycję **Kompilacja systemu operacyjnego Android TV**, aż pojawi się komunikat: *„Jesteś teraz programistą!”*.
-3. Wróć do menu **Opcje programisty** i włącz **Debugowanie USB** oraz **Debugowanie sieciowe**.
-
-### Krok 2: Instalacja przez ADB (z komputera w tej samej sieci Wi-Fi)
-1. Połącz się z adresem IP telewizora:
-   ```bash
-   adb connect <ADRES_IP_TELEWIZORA>:5555
-   ```
-2. Zainstaluj plik APK:
-   ```bash
-   adb install -r C:\Stosia-app\app\build\outputs\apk\debug\app-debug.apk
-   ```
-
-### Alternatywna metoda instalacji (Pendrive USB):
-1. Skopiuj plik `app-debug.apk` na pendrive sformatowany w systemie FAT32 lub exFAT.
-2. Podłącz pendrive do gniazda USB w telewizorze.
-3. Za pomocą dowolnego menedżera plików na Android TV (np. *File Commander* lub *AnExplorer*) zainstaluj plik APK.
-
----
-
-## 5. Uruchamianie testów i weryfikacji
-
-Aby uruchomić automatyczne testy jednostkowe:
-```bash
-.\gradlew.bat testDebugUnitTest
+```
+app/                         moduł Android (Kotlin, Jetpack Compose, Room, Coil)
+  src/main/java/pl/literusie/
+    domain/                  czysta logika (bez Androida): text/ typing/ learning/ model/
+    data/                    WordParser/WordRepository, room/ (postępy w SQLite)
+    media/                   Speaker (TextToSpeech), efekty dźwiękowe, porty/atrapy
+    ui/                      theme/, components/, screens/, app/LiterusieApp (nawigacja)
+    ui/platform/WordImage    ładowanie SVG (Coil) – jedyny plik UI zależny od Androida
+  src/main/assets/           words_database.json, illustrations/*.svg (604 pliki)
+  src/test/                  testy jednostkowe (JVM)
+tools/vocab/                 words.tsv (ręcznie dobrane słowa), build_vocab.py, validate_vocab.py
+tools/desktop-harness/       testy UI i zrzuty ekranu na JVM (Compose Desktop) – bez Androida
+docs/                        VALIDATION_REPORT.md, zrzuty ekranów, licencje
 ```
 
-Aby uruchomić walidację bazy 5000 słów:
+## Budowanie i instalacja na Android TV
+
+Wymagania: JDK 17+, Android SDK 34 (Android Studio lub `sdkmanager "platforms;android-34" "build-tools;34.0.0"`),
+dostęp do Google Maven.
+
 ```bash
-python tools/dataset/validate_database.py
+echo "sdk.dir=/ścieżka/do/Android/sdk" > local.properties
+gradle :app:testDebugUnitTest      # testy jednostkowe
+gradle :app:assembleDebug          # APK: app/build/outputs/apk/debug/app-debug.apk
 ```
+
+Instalacja na telewizorze (włącz „Opcje programisty” → „Debugowanie USB/sieciowe”):
+
+```bash
+adb connect <adres-IP-telewizora>:5555
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+```
+
+Aplikacja pojawi się w launcherze Android TV jako **Literusie**. Sterowanie: klawiatura USB/Bluetooth (litery,
+Backspace, Esc = wyjście), pilot (strzałki, OK, Wstecz).
+
+**Polski głos:** Ustawienia telewizora → Preferencje urządzenia → Zamiana tekstu na mowę → zainstaluj język polski
+(np. „Usługi mowy Google”). Gdy głosu brakuje, aplikacja pokazuje dyskretną informację, a „Dla rodziców” ma przycisk skrótu.
+
+## Testy
+
+```bash
+# Testy jednostkowe + testy UI (JVM, bez Androida) i zrzuty ekranów -> tools/desktop-harness/build/shots
+cd tools/desktop-harness && gradle test
+
+# Walidacja bazy słów + raport docs/VALIDATION_REPORT.md
+python3 tools/vocab/validate_vocab.py
+```
+
+Testy Androida (`app/src/test`) są te same pliki, które uruchamia harness. **Testów instrumentalnych (na urządzeniu)
+nie ma** – obsługa klawiatury sprzętowej, TTS i pilota wymaga ręcznego sprawdzenia na telewizorze (lista kontrolna
+w `docs/MANUAL_TEST_CHECKLIST.md`).
+
+## Przebudowa bazy słów
+
+Słowa i przypisane do nich ilustracje (kody Twemoji) są w `tools/vocab/words.tsv`.
+
+```bash
+npm pack @twemoji/svg@15.0.0 && mkdir tw && tar xzf twemoji-svg-*.tgz -C tw
+python3 tools/vocab/build_vocab.py tw/package      # generuje words_database.json i illustrations/
+python3 tools/vocab/validate_vocab.py
+```
+
+## Prywatność i licencje
+
+Brak uprawnień (także INTERNET), brak analityki, `allowBackup=false`. Postępy są tylko w lokalnej bazie na urządzeniu.
+
+- Ilustracje: **Twemoji** © Twitter, Inc. i współtwórcy, licencja **CC-BY 4.0** (wymaga uznania autorstwa – jest w aplikacji
+  na ekranie głównym i w „Dla rodziców”). Etykiety słów pomocniczo z Emojibase (MIT).
+- Czcionka: Nunito (SIL OFL 1.1) – `docs/Nunito-OFL.txt`.
