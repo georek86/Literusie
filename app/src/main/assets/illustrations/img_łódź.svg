@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E1F5FE"/><stop offset="100%" stop-color="#B3E5FC"/></linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="48" fill="url(#bg)"/>
+  <!-- Fale -->
+  <path d="M 50 430 Q 150 400 250 430 T 450 430 T 550 430 L 550 550 L 50 550 Z" fill="#0288D1"/>
+  <path d="M 20 460 Q 120 430 220 460 T 420 460 T 580 460 L 580 550 L 20 550 Z" fill="#01579B"/>
+  <!-- Kadłub łodzi -->
+  <path d="M 140 370 L 460 370 L 410 450 L 190 450 Z" fill="#D32F2F"/>
+  <rect x="130" y="360" width="340" height="15" rx="7" fill="#B71C1C"/>
+  <!-- Maszt -->
+  <rect x="290" y="140" width="16" height="230" rx="6" fill="#8D6E63"/>
+  <!-- Żagle -->
+  <path d="M 315 160 L 430 330 L 315 330 Z" fill="#FFFFFF"/>
+  <path d="M 275 180 L 180 330 L 275 330 Z" fill="#FFF9C4"/>
+  <!-- Flaga -->
+  <polygon points="306,140 350,155 306,170" fill="#FF9800"/>
+</svg>
