@@ -126,3 +126,9 @@ Słówka i obrazki ARASAAC wchodzą **do APK**: `python tools/arasaac/build_pack
 `app/src/main/assets/words_arasaac.json` i `assets/illustrations_arasaac/*.webp` (320 px). Aplikacja nie ma wtedy
 uprawnienia INTERNET i działa w pełni offline. Kod pobierania pakietów (`data/packs`) pozostał, ale jest wyłączony.
 Uwaga licencyjna: ARASAAC to CC BY-NC-SA 4.0, więc APK z tymi obrazkami wolno rozpowszechniać wyłącznie niekomercyjnie.
+
+### Kontrola pisowni bazy
+`node tools/spellcheck/check_words.mjs` (po `npm i dictionary-pl nspell`) sprawdza każde słowo ze słownikiem
+hunspell języka polskiego. Wyłapało błędy źródła ARASAAC (np. „POKO” zamiast „POKÓJ”) oraz 187 słów obcych lub
+spoza słownika (QUINOA, TETRIS, AUDITORIUM…) – zostały usunięte. Słownik nie wykryje poprawnych, ale nietrafnych
+słów ani złych form fleksyjnych; to wymaga przeglądu człowieka.
