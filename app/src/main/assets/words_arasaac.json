@@ -1,16 +1,5 @@
 [
  {
-  "id": "ar_00001",
-  "word": "ACAI",
-  "displayWord": "ACAI",
-  "category": "owoce i warzywa",
-  "difficulty": 1,
-  "imageId": "a_38494",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00002",
   "word": "ALE",
   "displayWord": "ALE",
@@ -407,17 +396,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00038",
-  "word": "CHIA",
-  "displayWord": "CHIA",
-  "category": "rośliny",
-  "difficulty": 1,
-  "imageId": "a_38526",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00039",
   "word": "CHÓR",
   "displayWord": "CHÓR",
@@ -468,28 +446,6 @@
   "category": "czynności",
   "difficulty": 1,
   "imageId": "a_25020",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00044",
-  "word": "COCA",
-  "displayWord": "COCA",
-  "category": "jedzenie i napoje",
-  "difficulty": 1,
-  "imageId": "a_12311",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00045",
-  "word": "CS",
-  "displayWord": "CS",
-  "category": "inne słowa",
-  "difficulty": 1,
-  "imageId": "a_36784",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -649,17 +605,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00060",
-  "word": "DRON",
-  "displayWord": "DRON",
-  "category": "pojazdy i transport",
-  "difficulty": 1,
-  "imageId": "a_39123",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00061",
   "word": "DRUT",
   "displayWord": "DRUT",
@@ -743,17 +688,6 @@
   "category": "czynności",
   "difficulty": 1,
   "imageId": "a_38276",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00069",
-  "word": "DZS",
-  "displayWord": "DZS",
-  "category": "inne słowa",
-  "difficulty": 1,
-  "imageId": "a_36781",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -1100,17 +1034,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00101",
-  "word": "GY",
-  "displayWord": "GY",
-  "category": "inne słowa",
-  "difficulty": 1,
-  "imageId": "a_36780",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00102",
   "word": "GŁOS",
   "displayWord": "GŁOS",
@@ -1161,17 +1084,6 @@
   "category": "inne słowa",
   "difficulty": 1,
   "imageId": "a_9155",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00107",
-  "word": "HURL",
-  "displayWord": "HURL",
-  "category": "sport i ruch",
-  "difficulty": 1,
-  "imageId": "a_37099",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -1760,17 +1672,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00161",
-  "word": "LY",
-  "displayWord": "LY",
-  "category": "inne słowa",
-  "difficulty": 1,
-  "imageId": "a_36778",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00162",
   "word": "LĘK",
   "displayWord": "LĘK",
@@ -1909,17 +1810,6 @@
   "category": "inne słowa",
   "difficulty": 1,
   "imageId": "a_6170",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00175",
-  "word": "MEMO",
-  "displayWord": "MEMO",
-  "category": "szkoła i przedszkole",
-  "difficulty": 1,
-  "imageId": "a_33052",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -2547,17 +2437,6 @@
   "category": "inne słowa",
   "difficulty": 1,
   "imageId": "a_7047",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00233",
-  "word": "POKO",
-  "displayWord": "POKO",
-  "category": "bezpieczeństwo",
-  "difficulty": 1,
-  "imageId": "a_38933",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -3289,17 +3168,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00300",
-  "word": "SZ",
-  "displayWord": "SZ",
-  "category": "inne słowa",
-  "difficulty": 1,
-  "imageId": "a_36773",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00301",
   "word": "SZYĆ",
   "displayWord": "SZYĆ",
@@ -3784,17 +3652,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00345",
-  "word": "WIFI",
-  "displayWord": "WIFI",
-  "category": "inne słowa",
-  "difficulty": 1,
-  "imageId": "a_35503",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00346",
   "word": "WIĄZ",
   "displayWord": "WIĄZ",
@@ -3883,17 +3740,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00354",
-  "word": "YOGA",
-  "displayWord": "YOGA",
-  "category": "sport i ruch",
-  "difficulty": 1,
-  "imageId": "a_9098",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00355",
   "word": "ZA",
   "displayWord": "ZA",
@@ -3955,17 +3801,6 @@
   "category": "inne słowa",
   "difficulty": 1,
   "imageId": "a_4773",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00361",
-  "word": "ZS",
-  "displayWord": "ZS",
-  "category": "inne słowa",
-  "difficulty": 1,
-  "imageId": "a_36768",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -4345,17 +4180,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00396",
-  "word": "AREPA",
-  "displayWord": "AREPA",
-  "category": "jedzenie i napoje",
-  "difficulty": 2,
-  "imageId": "a_37359",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00397",
   "word": "AUDYT",
   "displayWord": "AUDYT",
@@ -4642,17 +4466,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00423",
-  "word": "BERYKS",
-  "displayWord": "BERYKS",
-  "category": "zwierzęta",
-  "difficulty": 2,
-  "imageId": "a_37588",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00424",
   "word": "BIAŁA",
   "displayWord": "BIAŁA",
@@ -4851,17 +4664,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00442",
-  "word": "BOCCIA",
-  "displayWord": "BOCCIA",
-  "category": "sport i ruch",
-  "difficulty": 2,
-  "imageId": "a_8509",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00443",
   "word": "BOCIAN",
   "displayWord": "BOCIAN",
@@ -4972,17 +4774,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00453",
-  "word": "BONGOS",
-  "displayWord": "BONGOS",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_8341",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00454",
   "word": "BONSAI",
   "displayWord": "BONSAI",
@@ -5044,17 +4835,6 @@
   "category": "czynności",
   "difficulty": 2,
   "imageId": "a_36516",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00460",
-  "word": "BROWNI",
-  "displayWord": "BROWNI",
-  "category": "jedzenie i napoje",
-  "difficulty": 2,
-  "imageId": "a_38503",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -5374,17 +5154,6 @@
   "category": "zwierzęta",
   "difficulty": 2,
   "imageId": "a_31392",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00490",
-  "word": "CHURRO",
-  "displayWord": "CHURRO",
-  "category": "jedzenie i napoje",
-  "difficulty": 2,
-  "imageId": "a_8455",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -6017,17 +5786,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00548",
-  "word": "DONAT",
-  "displayWord": "DONAT",
-  "category": "jedzenie i napoje",
-  "difficulty": 2,
-  "imageId": "a_2368",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00549",
   "word": "DONICA",
   "displayWord": "DONICA",
@@ -6468,17 +6226,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00589",
-  "word": "FABADA",
-  "displayWord": "FABADA",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_31821",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00590",
   "word": "FAGOT",
   "displayWord": "FAGOT",
@@ -6573,17 +6320,6 @@
   "category": "inne słowa",
   "difficulty": 2,
   "imageId": "a_38764",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00599",
-  "word": "FIDEUA",
-  "displayWord": "FIDEUA",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_27757",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -7403,17 +7139,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00674",
-  "word": "HAIMA",
-  "displayWord": "HAIMA",
-  "category": "miejsca i budynki",
-  "difficulty": 2,
-  "imageId": "a_35119",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00675",
   "word": "HAMAK",
   "displayWord": "HAMAK",
@@ -7431,17 +7156,6 @@
   "category": "inne słowa",
   "difficulty": 2,
   "imageId": "a_8493",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00677",
-  "word": "HARIRA",
-  "displayWord": "HARIRA",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_36642",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -7678,17 +7392,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00699",
-  "word": "JEMBE",
-  "displayWord": "JEMBE",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_38105",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00700",
   "word": "JESTEM",
   "displayWord": "JESTEM",
@@ -7788,17 +7491,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00709",
-  "word": "KACHON",
-  "displayWord": "KACHON",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_23867",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00710",
   "word": "KAFTAN",
   "displayWord": "KAFTAN",
@@ -7882,17 +7574,6 @@
   "category": "inne słowa",
   "difficulty": 2,
   "imageId": "a_6594",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00718",
-  "word": "KAMPER",
-  "displayWord": "KAMPER",
-  "category": "pojazdy i transport",
-  "difficulty": 2,
-  "imageId": "a_38243",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -8140,17 +7821,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00741",
-  "word": "KENTIA",
-  "displayWord": "KENTIA",
-  "category": "rośliny",
-  "difficulty": 2,
-  "imageId": "a_35399",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00742",
   "word": "KICIUŚ",
   "displayWord": "KICIUŚ",
@@ -8261,17 +7931,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00752",
-  "word": "KLAWES",
-  "displayWord": "KLAWES",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_23937",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00753",
   "word": "KLEIĆ",
   "displayWord": "KLEIĆ",
@@ -8366,17 +8025,6 @@
   "category": "inne słowa",
   "difficulty": 2,
   "imageId": "a_36669",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00762",
-  "word": "KOFTA",
-  "displayWord": "KOFTA",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_36649",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -9603,17 +9251,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00874",
-  "word": "LOQUAT",
-  "displayWord": "LOQUAT",
-  "category": "owoce i warzywa",
-  "difficulty": 2,
-  "imageId": "a_37508",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00875",
   "word": "LOTOS",
   "displayWord": "LOTOS",
@@ -9895,17 +9532,6 @@
   "category": "inne słowa",
   "difficulty": 2,
   "imageId": "a_12347",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00901",
-  "word": "MEMORY",
-  "displayWord": "MEMORY",
-  "category": "szkoła i przedszkole",
-  "difficulty": 2,
-  "imageId": "a_39085",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -10736,17 +10362,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_00977",
-  "word": "NOMAD",
-  "displayWord": "NOMAD",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_32608",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_00978",
   "word": "NORMY",
   "displayWord": "NORMY",
@@ -10786,17 +10401,6 @@
   "category": "inne słowa",
   "difficulty": 2,
   "imageId": "a_7187",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_00982",
-  "word": "NUCHA",
-  "displayWord": "NUCHA",
-  "category": "zwierzęta",
-  "difficulty": 2,
-  "imageId": "a_25261",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -11220,17 +10824,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01021",
-  "word": "OREZA",
-  "displayWord": "OREZA",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_36419",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01022",
   "word": "ORGANY",
   "displayWord": "ORGANY",
@@ -11358,17 +10951,6 @@
   "category": "ciało człowieka",
   "difficulty": 2,
   "imageId": "a_2989",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01034",
-  "word": "PADEL",
-  "displayWord": "PADEL",
-  "category": "sport i ruch",
-  "difficulty": 2,
-  "imageId": "a_28609",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -11902,17 +11484,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01083",
-  "word": "PITNIK",
-  "displayWord": "PITNIK",
-  "category": "dom i jego wyposażenie",
-  "difficulty": 2,
-  "imageId": "a_37015",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01084",
   "word": "PIÓRKO",
   "displayWord": "PIÓRKO",
@@ -12161,17 +11732,6 @@
   "category": "pojazdy i transport",
   "difficulty": 2,
   "imageId": "a_21577",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01107",
-  "word": "POMINK",
-  "displayWord": "POMINK",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_25588",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -12892,17 +12452,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01173",
-  "word": "QUINOA",
-  "displayWord": "QUINOA",
-  "category": "rośliny",
-  "difficulty": 2,
-  "imageId": "a_38527",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01174",
   "word": "RABIN",
   "displayWord": "RABIN",
@@ -13162,17 +12711,6 @@
   "category": "inne słowa",
   "difficulty": 2,
   "imageId": "a_9048",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01198",
-  "word": "ROŻNO",
-  "displayWord": "ROŻNO",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_35443",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -13464,17 +13002,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01225",
-  "word": "SAGATY",
-  "displayWord": "SAGATY",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_3266",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01226",
   "word": "SALAMI",
   "displayWord": "SALAMI",
@@ -13552,34 +13079,12 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01233",
-  "word": "SEITAN",
-  "displayWord": "SEITAN",
-  "category": "jedzenie i napoje",
-  "difficulty": 2,
-  "imageId": "a_38556",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01234",
   "word": "SELER",
   "displayWord": "SELER",
   "category": "owoce i warzywa",
   "difficulty": 2,
   "imageId": "a_8492",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01235",
-  "word": "SELFIE",
-  "displayWord": "SELFIE",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_34809",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -14399,17 +13904,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01310",
-  "word": "SZEKL",
-  "displayWord": "SZEKL",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_36829",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01311",
   "word": "SZELKI",
   "displayWord": "SZELKI",
@@ -14872,17 +14366,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01353",
-  "word": "TAŻIN",
-  "displayWord": "TAŻIN",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_32673",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01354",
   "word": "TEKST",
   "displayWord": "TEKST",
@@ -14911,17 +14394,6 @@
   "category": "dom i jego wyposażenie",
   "difficulty": 2,
   "imageId": "a_7274",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01357",
-  "word": "TETRIS",
-  "displayWord": "TETRIS",
-  "category": "zabawki i zabawa",
-  "difficulty": 2,
-  "imageId": "a_9132",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -15241,17 +14713,6 @@
   "category": "zwierzęta",
   "difficulty": 2,
   "imageId": "a_25668",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01387",
-  "word": "TURRON",
-  "displayWord": "TURRON",
-  "category": "jedzenie i napoje",
-  "difficulty": 2,
-  "imageId": "a_2784",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -15681,17 +15142,6 @@
   "category": "inne słowa",
   "difficulty": 2,
   "imageId": "a_11637",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01427",
-  "word": "WEBCAM",
-  "displayWord": "WEBCAM",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_9167",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -16786,17 +16236,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01527",
-  "word": "ZUMBA",
-  "displayWord": "ZUMBA",
-  "category": "inne słowa",
-  "difficulty": 2,
-  "imageId": "a_34149",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01528",
   "word": "ZWIJAĆ",
   "displayWord": "ZWIJAĆ",
@@ -17809,17 +17248,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01620",
-  "word": "AREOSOL",
-  "displayWord": "AREOSOL",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_30128",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01621",
   "word": "ARTYSTA",
   "displayWord": "ARTYSTA",
@@ -17859,17 +17287,6 @@
   "category": "czynności",
   "difficulty": 3,
   "imageId": "a_36494",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01625",
-  "word": "AURRESKU",
-  "displayWord": "AURRESKU",
-  "category": "zawody",
-  "difficulty": 3,
-  "imageId": "a_32794",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -18073,17 +17490,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01644",
-  "word": "BATUCADA",
-  "displayWord": "BATUCADA",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_34455",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01645",
   "word": "BAZYLIA",
   "displayWord": "BAZYLIA",
@@ -18134,17 +17540,6 @@
   "category": "pojazdy i transport",
   "difficulty": 3,
   "imageId": "a_8125",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01650",
-  "word": "BICORNE",
-  "displayWord": "BICORNE",
-  "category": "ubrania",
-  "difficulty": 3,
-  "imageId": "a_36888",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -18491,45 +17886,12 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01682",
-  "word": "BŁAZENEK",
-  "displayWord": "BŁAZENEK",
-  "category": "zwierzęta",
-  "difficulty": 3,
-  "imageId": "a_27968",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01683",
   "word": "BŁYSKAĆ",
   "displayWord": "BŁYSKAĆ",
   "category": "czynności",
   "difficulty": 3,
   "imageId": "a_7288",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01684",
-  "word": "CABEZUDO",
-  "displayWord": "CABEZUDO",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_8300",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01685",
-  "word": "CACHOPO",
-  "displayWord": "CACHOPO",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_30508",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -18640,17 +18002,6 @@
   "category": "inne słowa",
   "difficulty": 3,
   "imageId": "a_32020",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01696",
-  "word": "CHEBAKIA",
-  "displayWord": "CHEBAKIA",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_36627",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -18788,39 +18139,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01709",
-  "word": "CHULAPA",
-  "displayWord": "CHULAPA",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_37893",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01710",
-  "word": "CHULAPO",
-  "displayWord": "CHULAPO",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_37894",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01711",
-  "word": "CHURROS",
-  "displayWord": "CHURROS",
-  "category": "jedzenie i napoje",
-  "difficulty": 3,
-  "imageId": "a_3262",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01712",
   "word": "CHUSTKA",
   "displayWord": "CHUSTKA",
@@ -18926,17 +18244,6 @@
   "category": "przeciwieństwa",
   "difficulty": 3,
   "imageId": "a_27025",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01722",
-  "word": "CUAJADA",
-  "displayWord": "CUAJADA",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_15367",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -19184,17 +18491,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01745",
-  "word": "DARBUKA",
-  "displayWord": "DARBUKA",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_38103",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01746",
   "word": "DECYZJA",
   "displayWord": "DECYZJA",
@@ -19234,17 +18530,6 @@
   "category": "zawody",
   "difficulty": 3,
   "imageId": "a_11229",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01750",
-  "word": "DESZCZAK",
-  "displayWord": "DESZCZAK",
-  "category": "ubrania",
-  "difficulty": 3,
-  "imageId": "a_4927",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -19811,17 +19096,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01802",
-  "word": "DŹOKEJKA",
-  "displayWord": "DŹOKEJKA",
-  "category": "sport i ruch",
-  "difficulty": 3,
-  "imageId": "a_34834",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01803",
   "word": "DŹWIGAĆ",
   "displayWord": "DŹWIGAĆ",
@@ -19883,17 +19157,6 @@
   "category": "zawody",
   "difficulty": 3,
   "imageId": "a_11723",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01809",
-  "word": "ELEKTRO",
-  "displayWord": "ELEKTRO",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_8101",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -20097,17 +19360,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01828",
-  "word": "FOCACCIA",
-  "displayWord": "FOCACCIA",
-  "category": "jedzenie i napoje",
-  "difficulty": 3,
-  "imageId": "a_38915",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01829",
   "word": "FOLIOWAĆ",
   "displayWord": "FOLIOWAĆ",
@@ -20136,17 +19388,6 @@
   "category": "czynności",
   "difficulty": 3,
   "imageId": "a_32618",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01832",
-  "word": "FOROPTER",
-  "displayWord": "FOROPTER",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_30664",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -20328,17 +19569,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01849",
-  "word": "GOALBALL",
-  "displayWord": "GOALBALL",
-  "category": "sport i ruch",
-  "difficulty": 3,
-  "imageId": "a_8590",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01850",
   "word": "GOBELIN",
   "displayWord": "GOBELIN",
@@ -20433,17 +19663,6 @@
   "category": "rośliny",
   "difficulty": 3,
   "imageId": "a_3080",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01859",
-  "word": "GOŻDZIKI",
-  "displayWord": "GOŻDZIKI",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_37241",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -20713,17 +19932,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01884",
-  "word": "GŁUCHĄĆ",
-  "displayWord": "GŁUCHĄĆ",
-  "category": "czynności",
-  "difficulty": 3,
-  "imageId": "a_34177",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01885",
   "word": "GŁUPSTWO",
   "displayWord": "GŁUPSTWO",
@@ -20796,17 +20004,6 @@
   "category": "inne słowa",
   "difficulty": 3,
   "imageId": "a_35027",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01892",
-  "word": "HEMOLOG",
-  "displayWord": "HEMOLOG",
-  "category": "zawody",
-  "difficulty": 3,
-  "imageId": "a_35313",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -20988,17 +20185,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01909",
-  "word": "JABADOR",
-  "displayWord": "JABADOR",
-  "category": "ubrania",
-  "difficulty": 3,
-  "imageId": "a_36643",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01910",
   "word": "JACUZZI",
   "displayWord": "JACUZZI",
@@ -21109,17 +20295,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01920",
-  "word": "JELLABA",
-  "displayWord": "JELLABA",
-  "category": "ubrania",
-  "difficulty": 3,
-  "imageId": "a_36626",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01921",
   "word": "JEMIOŁA",
   "displayWord": "JEMIOŁA",
@@ -21181,17 +20356,6 @@
   "category": "inne słowa",
   "difficulty": 3,
   "imageId": "a_34033",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01927",
-  "word": "JOELETTE",
-  "displayWord": "JOELETTE",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_36193",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -21329,17 +20493,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01940",
-  "word": "KAMALEON",
-  "displayWord": "KAMALEON",
-  "category": "zwierzęta",
-  "difficulty": 3,
-  "imageId": "a_3003",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01941",
   "word": "KAMERTON",
   "displayWord": "KAMERTON",
@@ -21417,17 +20570,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_01948",
-  "word": "KAPITOL",
-  "displayWord": "KAPITOL",
-  "category": "miejsca i budynki",
-  "difficulty": 3,
-  "imageId": "a_24941",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_01949",
   "word": "KAPSUŁKA",
   "displayWord": "KAPSUŁKA",
@@ -21500,17 +20642,6 @@
   "category": "ubrania",
   "difficulty": 3,
   "imageId": "a_4872",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_01956",
-  "word": "KARMIAĆ",
-  "displayWord": "KARMIAĆ",
-  "category": "czynności",
-  "difficulty": 3,
-  "imageId": "a_32030",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -22143,17 +21274,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02014",
-  "word": "KONTOLER",
-  "displayWord": "KONTOLER",
-  "category": "zawody",
-  "difficulty": 3,
-  "imageId": "a_37324",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02015",
   "word": "KOPALNIA",
   "displayWord": "KOPALNIA",
@@ -22369,17 +21489,6 @@
   "category": "czynności",
   "difficulty": 3,
   "imageId": "a_26784",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02035",
-  "word": "KRAJZEGA",
-  "displayWord": "KRAJZEGA",
-  "category": "dom i jego wyposażenie",
-  "difficulty": 3,
-  "imageId": "a_5587",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -22710,28 +21819,6 @@
   "category": "szkoła i przedszkole",
   "difficulty": 3,
   "imageId": "a_29627",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02066",
-  "word": "LABRAKS",
-  "displayWord": "LABRAKS",
-  "category": "zwierzęta",
-  "difficulty": 3,
-  "imageId": "a_21969",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02067",
-  "word": "LAKTATOR",
-  "displayWord": "LAKTATOR",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_31698",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -23111,17 +22198,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02102",
-  "word": "MANESTRA",
-  "displayWord": "MANESTRA",
-  "category": "jedzenie i napoje",
-  "difficulty": 3,
-  "imageId": "a_5511",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02103",
   "word": "MANIERKA",
   "displayWord": "MANIERKA",
@@ -23227,17 +22303,6 @@
   "category": "miejsca i budynki",
   "difficulty": 3,
   "imageId": "a_37697",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02113",
-  "word": "MARMITA",
-  "displayWord": "MARMITA",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_32784",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -23436,17 +22501,6 @@
   "category": "czynności",
   "difficulty": 3,
   "imageId": "a_7156",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02132",
-  "word": "MICROBUS",
-  "displayWord": "MICROBUS",
-  "category": "pojazdy i transport",
-  "difficulty": 3,
-  "imageId": "a_28405",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -23678,28 +22732,6 @@
   "category": "inne słowa",
   "difficulty": 3,
   "imageId": "a_16121",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02154",
-  "word": "MONOFIN",
-  "displayWord": "MONOFIN",
-  "category": "sport i ruch",
-  "difficulty": 3,
-  "imageId": "a_31474",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02155",
-  "word": "MOŹDZIEŻ",
-  "displayWord": "MOŹDZIEŻ",
-  "category": "dom i jego wyposażenie",
-  "difficulty": 3,
-  "imageId": "a_17275",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -24134,17 +23166,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02195",
-  "word": "NUGETSY",
-  "displayWord": "NUGETSY",
-  "category": "jedzenie i napoje",
-  "difficulty": 3,
-  "imageId": "a_31378",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02196",
   "word": "OBCINAĆ",
   "displayWord": "OBCINAĆ",
@@ -24294,17 +23315,6 @@
   "category": "czynności",
   "difficulty": 3,
   "imageId": "a_17229",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02210",
-  "word": "OCTOPUS",
-  "displayWord": "OCTOPUS",
-  "category": "sport i ruch",
-  "difficulty": 3,
-  "imageId": "a_31115",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -24712,17 +23722,6 @@
   "category": "czynności",
   "difficulty": 3,
   "imageId": "a_15487",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02248",
-  "word": "OPTYCZKA",
-  "displayWord": "OPTYCZKA",
-  "category": "zawody",
-  "difficulty": 3,
-  "imageId": "a_15489",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -25146,17 +24145,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02287",
-  "word": "PANETONE",
-  "displayWord": "PANETONE",
-  "category": "jedzenie i napoje",
-  "difficulty": 3,
-  "imageId": "a_37213",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02288",
   "word": "PANTERA",
   "displayWord": "PANTERA",
@@ -25300,17 +24288,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02301",
-  "word": "PATXARAN",
-  "displayWord": "PATXARAN",
-  "category": "jedzenie i napoje",
-  "difficulty": 3,
-  "imageId": "a_28954",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02302",
   "word": "PAŁECZKA",
   "displayWord": "PAŁECZKA",
@@ -25339,28 +24316,6 @@
   "category": "zwierzęta",
   "difficulty": 3,
   "imageId": "a_6174",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02305",
-  "word": "PENDETYW",
-  "displayWord": "PENDETYW",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_36565",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02306",
-  "word": "PENDRIVE",
-  "displayWord": "PENDRIVE",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_9800",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -25575,17 +24530,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02326",
-  "word": "PILATES",
-  "displayWord": "PILATES",
-  "category": "sport i ruch",
-  "difficulty": 3,
-  "imageId": "a_38793",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02327",
   "word": "PILNOWAĆ",
   "displayWord": "PILNOWAĆ",
@@ -25614,17 +24558,6 @@
   "category": "szkoła i przedszkole",
   "difficulty": 3,
   "imageId": "a_3234",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02330",
-  "word": "PINIATA",
-  "displayWord": "PINIATA",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_31406",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -25680,17 +24613,6 @@
   "category": "zwierzęta",
   "difficulty": 3,
   "imageId": "a_29776",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02336",
-  "word": "PIRSING",
-  "displayWord": "PIRSING",
-  "category": "ubrania",
-  "difficulty": 3,
-  "imageId": "a_38512",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -26070,17 +24992,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02371",
-  "word": "PODOLOG",
-  "displayWord": "PODOLOG",
-  "category": "zawody",
-  "difficulty": 3,
-  "imageId": "a_22767",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02372",
   "word": "PODOSKOP",
   "displayWord": "PODOSKOP",
@@ -26422,17 +25333,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02403",
-  "word": "POSKARP",
-  "displayWord": "POSKARP",
-  "category": "zwierzęta",
-  "difficulty": 3,
-  "imageId": "a_22090",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02404",
   "word": "POSOLONY",
   "displayWord": "POSOLONY",
@@ -26582,17 +25482,6 @@
   "category": "zawody",
   "difficulty": 3,
   "imageId": "a_32080",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02418",
-  "word": "POŁOŻNY",
-  "displayWord": "POŁOŻNY",
-  "category": "zawody",
-  "difficulty": 3,
-  "imageId": "a_31933",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -27390,17 +26279,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02491",
-  "word": "ROZDYMKA",
-  "displayWord": "ROZDYMKA",
-  "category": "zwierzęta",
-  "difficulty": 3,
-  "imageId": "a_34597",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02492",
   "word": "ROZLEWAĆ",
   "displayWord": "ROZLEWAĆ",
@@ -28116,17 +26994,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02557",
-  "word": "SLIOTAR",
-  "displayWord": "SLIOTAR",
-  "category": "sport i ruch",
-  "difficulty": 3,
-  "imageId": "a_37112",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02558",
   "word": "SMACZNY",
   "displayWord": "SMACZNY",
@@ -28177,17 +27044,6 @@
   "category": "inne słowa",
   "difficulty": 3,
   "imageId": "a_4599",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02563",
-  "word": "SNOWBORD",
-  "displayWord": "SNOWBORD",
-  "category": "sport i ruch",
-  "difficulty": 3,
-  "imageId": "a_29810",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -29238,17 +28094,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02659",
-  "word": "TAMBAQUI",
-  "displayWord": "TAMBAQUI",
-  "category": "zwierzęta",
-  "difficulty": 3,
-  "imageId": "a_34599",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02660",
   "word": "TAMBURYN",
   "displayWord": "TAMBURYN",
@@ -29431,28 +28276,6 @@
   "category": "ciało człowieka",
   "difficulty": 3,
   "imageId": "a_24450",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02677",
-  "word": "TRINQUET",
-  "displayWord": "TRINQUET",
-  "category": "sport i ruch",
-  "difficulty": 3,
-  "imageId": "a_37053",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02678",
-  "word": "TRINXAT",
-  "displayWord": "TRINXAT",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_38097",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -31405,17 +30228,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02856",
-  "word": "ZAMBOMBA",
-  "displayWord": "ZAMBOMBA",
-  "category": "inne słowa",
-  "difficulty": 3,
-  "imageId": "a_11400",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02857",
   "word": "ZAMGLONY",
   "displayWord": "ZAMGLONY",
@@ -32637,17 +31449,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02968",
-  "word": "AEROGENERATOR",
-  "displayWord": "AEROGENERATOR",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_25768",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02969",
   "word": "AGROTURYSTYKA",
   "displayWord": "AGROTURYSTYKA",
@@ -32703,17 +31504,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_02974",
-  "word": "AKTINIARIA",
-  "displayWord": "AKTINIARIA",
-  "category": "zwierzęta",
-  "difficulty": 4,
-  "imageId": "a_38362",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_02975",
   "word": "AKTYWNOŚĆ",
   "displayWord": "AKTYWNOŚĆ",
@@ -32753,17 +31543,6 @@
   "category": "zawody",
   "difficulty": 4,
   "imageId": "a_31172",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02979",
-  "word": "ALERGOLOŻKA",
-  "displayWord": "ALERGOLOŻKA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_31174",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -32819,17 +31598,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_33124",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02985",
-  "word": "AMNIREKSJA",
-  "displayWord": "AMNIREKSJA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_32210",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -32907,17 +31675,6 @@
   "category": "miejsca i budynki",
   "difficulty": 4,
   "imageId": "a_32380",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_02993",
-  "word": "ARCHEOLOŻKA",
-  "displayWord": "ARCHEOLOŻKA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_32382",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -33033,45 +31790,12 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03004",
-  "word": "AUDIOPRZEWODNIK",
-  "displayWord": "AUDIOPRZEWODNIK",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_39156",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03005",
-  "word": "AUDITORIUM",
-  "displayWord": "AUDITORIUM",
-  "category": "miejsca i budynki",
-  "difficulty": 4,
-  "imageId": "a_32934",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03006",
   "word": "AUTOPORTRET",
   "displayWord": "AUTOPORTRET",
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_36878",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03007",
-  "word": "AUTOREFRACTOMETR",
-  "displayWord": "AUTOREFRACTOMETR",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_37616",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -33297,17 +32021,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03028",
-  "word": "BIOMOLEKUŁY",
-  "displayWord": "BIOMOLEKUŁY",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_33032",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03029",
   "word": "BISEKSUALISTA",
   "displayWord": "BISEKSUALISTA",
@@ -33451,17 +32164,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03042",
-  "word": "BURGEROWNIA",
-  "displayWord": "BURGEROWNIA",
-  "category": "jedzenie i napoje",
-  "difficulty": 4,
-  "imageId": "a_11281",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03043",
   "word": "BURMISTRZ",
   "displayWord": "BURMISTRZ",
@@ -33501,17 +32203,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_6475",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03047",
-  "word": "CANELLONI",
-  "displayWord": "CANELLONI",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_3005",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -33578,17 +32269,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_29816",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03054",
-  "word": "CHICHARRONES",
-  "displayWord": "CHICHARRONES",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_31043",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -33880,17 +32560,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03081",
-  "word": "CYDROWNIA",
-  "displayWord": "CYDROWNIA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_28946",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03082",
   "word": "CZAPECZKA",
   "displayWord": "CZAPECZKA",
@@ -34012,17 +32681,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03093",
-  "word": "CZWORAKOWAĆ",
-  "displayWord": "CZWORAKOWAĆ",
-  "category": "czynności",
-  "difficulty": 4,
-  "imageId": "a_6511",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03094",
   "word": "CZYSZCZENIE",
   "displayWord": "CZYSZCZENIE",
@@ -34084,17 +32742,6 @@
   "category": "czynności",
   "difficulty": 4,
   "imageId": "a_16435",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03100",
-  "word": "DELFINOTERAPIA",
-  "displayWord": "DELFINOTERAPIA",
-  "category": "zwierzęta",
-  "difficulty": 4,
-  "imageId": "a_33980",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -34199,28 +32846,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03110",
-  "word": "DINOPROSTON",
-  "displayWord": "DINOPROSTON",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_31700",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03111",
-  "word": "DMUCHANIEC",
-  "displayWord": "DMUCHANIEC",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_28259",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03112",
   "word": "DOCHODZENIE",
   "displayWord": "DOCHODZENIE",
@@ -34243,34 +32868,12 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03114",
-  "word": "DOGOTERAPEUTA",
-  "displayWord": "DOGOTERAPEUTA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_36179",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03115",
   "word": "DOGOTERAPIA",
   "displayWord": "DOGOTERAPIA",
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_36181",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03116",
-  "word": "DOGOTERPIA",
-  "displayWord": "DOGOTERPIA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_29202",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -34568,17 +33171,6 @@
   "category": "ludzie i rodzina",
   "difficulty": 4,
   "imageId": "a_4560",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03144",
-  "word": "DZIALANIA",
-  "displayWord": "DZIALANIA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_32212",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -34958,17 +33550,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03179",
-  "word": "EMOCJOMETR",
-  "displayWord": "EMOCJOMETR",
-  "category": "emocje",
-  "difficulty": 4,
-  "imageId": "a_37083",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03180",
   "word": "ENDOKRYNOLOG",
   "displayWord": "ENDOKRYNOLOG",
@@ -35046,17 +33627,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03187",
-  "word": "EWALUATOR",
-  "displayWord": "EWALUATOR",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_30006",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03188",
   "word": "FAJERWERKI",
   "displayWord": "FAJERWERKI",
@@ -35129,17 +33699,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_36713",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03195",
-  "word": "FIBROSKOP",
-  "displayWord": "FIBROSKOP",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_38068",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -35387,17 +33946,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03218",
-  "word": "FRYTOWNICA",
-  "displayWord": "FRYTOWNICA",
-  "category": "dom i jego wyposażenie",
-  "difficulty": 4,
-  "imageId": "a_27772",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03219",
   "word": "FRYZJERKA",
   "displayWord": "FRYZJERKA",
@@ -35525,17 +34073,6 @@
   "category": "zawody",
   "difficulty": 4,
   "imageId": "a_28241",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03231",
-  "word": "GAZOMETRIA",
-  "displayWord": "GAZOMETRIA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_38751",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -35772,28 +34309,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03253",
-  "word": "GŁUCHONIEWIDOMY",
-  "displayWord": "GŁUCHONIEWIDOMY",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_38664",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03254",
-  "word": "HEADMOUSE",
-  "displayWord": "HEADMOUSE",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_32877",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03255",
   "word": "HEMATOLOGIA",
   "displayWord": "HEMATOLOGIA",
@@ -35932,17 +34447,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_11554",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03268",
-  "word": "HYDRAULICZKA",
-  "displayWord": "HYDRAULICZKA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_11266",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -36300,17 +34804,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03301",
-  "word": "JOGURTOWNICA",
-  "displayWord": "JOGURTOWNICA",
-  "category": "dom i jego wyposażenie",
-  "difficulty": 4,
-  "imageId": "a_36677",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03302",
   "word": "JUBILERKA",
   "displayWord": "JUBILERKA",
@@ -36509,28 +35002,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03320",
-  "word": "KARUZELKA",
-  "displayWord": "KARUZELKA",
-  "category": "zabawki i zabawa",
-  "difficulty": 4,
-  "imageId": "a_17204",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03321",
-  "word": "KASTANIET",
-  "displayWord": "KASTANIET",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_8340",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03322",
   "word": "KASTANIETY",
   "displayWord": "KASTANIETY",
@@ -36630,17 +35101,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03331",
-  "word": "KEYBORDZISTA",
-  "displayWord": "KEYBORDZISTA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_24424",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03332",
   "word": "KICHNIĘCIE",
   "displayWord": "KICHNIĘCIE",
@@ -36707,17 +35167,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03338",
-  "word": "KIEROWNIKCZKA",
-  "displayWord": "KIEROWNIKCZKA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_16041",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03339",
   "word": "KIEŁBASKI",
   "displayWord": "KIEŁBASKI",
@@ -36735,17 +35184,6 @@
   "category": "rośliny",
   "difficulty": 4,
   "imageId": "a_36921",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03341",
-  "word": "KILOMETROMIERZ",
-  "displayWord": "KILOMETROMIERZ",
-  "category": "pojazdy i transport",
-  "difficulty": 4,
-  "imageId": "a_5977",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -36790,17 +35228,6 @@
   "category": "emocje",
   "difficulty": 4,
   "imageId": "a_34242",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03346",
-  "word": "KLEJOWNICA",
-  "displayWord": "KLEJOWNICA",
-  "category": "szkoła i przedszkole",
-  "difficulty": 4,
-  "imageId": "a_37513",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -37455,17 +35882,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03406",
-  "word": "KSIĘGARKA",
-  "displayWord": "KSIĘGARKA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_16791",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03407",
   "word": "KSIĘGARNIA",
   "displayWord": "KSIĘGARNIA",
@@ -37582,17 +35998,6 @@
   "category": "zawody",
   "difficulty": 4,
   "imageId": "a_38847",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03418",
-  "word": "LEDERHOSEN",
-  "displayWord": "LEDERHOSEN",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_27298",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -37774,17 +36179,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03435",
-  "word": "LOGOPEDKA",
-  "displayWord": "LOGOPEDKA",
-  "category": "szkoła i przedszkole",
-  "difficulty": 4,
-  "imageId": "a_36263",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03436",
   "word": "LUSTRZANKA",
   "displayWord": "LUSTRZANKA",
@@ -37862,17 +36256,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03443",
-  "word": "MARSJANIN",
-  "displayWord": "MARSJANIN",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_7154",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03444",
   "word": "MARYNARKA",
   "displayWord": "MARYNARKA",
@@ -37939,34 +36322,12 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03450",
-  "word": "MEDIATECA",
-  "displayWord": "MEDIATECA",
-  "category": "bezpieczeństwo",
-  "difficulty": 4,
-  "imageId": "a_38633",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03451",
   "word": "MENSTRUACJA",
   "displayWord": "MENSTRUACJA",
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_8165",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03452",
-  "word": "MERKUROCHROM",
-  "displayWord": "MERKUROCHROM",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_26212",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -38016,17 +36377,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03457",
-  "word": "MICROENEMA",
-  "displayWord": "MICROENEMA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_30671",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03458",
   "word": "MIESZKANIE",
   "displayWord": "MIESZKANIE",
@@ -38066,39 +36416,6 @@
   "category": "dom i jego wyposażenie",
   "difficulty": 4,
   "imageId": "a_2473",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03462",
-  "word": "MIKROSZCZOTECZKA",
-  "displayWord": "MIKROSZCZOTECZKA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_37498",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03463",
-  "word": "MINDFULNESS",
-  "displayWord": "MINDFULNESS",
-  "category": "czynności",
-  "difficulty": 4,
-  "imageId": "a_32734",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03464",
-  "word": "MIZOGONIA",
-  "displayWord": "MIZOGONIA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_36712",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -38187,17 +36504,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_8634",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03473",
-  "word": "MOSIKTIERA",
-  "displayWord": "MOSIKTIERA",
-  "category": "miejsca i budynki",
-  "difficulty": 4,
-  "imageId": "a_38507",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -38346,17 +36652,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03487",
-  "word": "NAKŁADANKA",
-  "displayWord": "NAKŁADANKA",
-  "category": "zabawki i zabawa",
-  "difficulty": 4,
-  "imageId": "a_36389",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03488",
   "word": "NALEŚNIKARNIA",
   "displayWord": "NALEŚNIKARNIA",
@@ -38456,17 +36751,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03497",
-  "word": "NARZĘDZIOWNIK",
-  "displayWord": "NARZĘDZIOWNIK",
-  "category": "dom i jego wyposażenie",
-  "difficulty": 4,
-  "imageId": "a_2676",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03498",
   "word": "NASZYJNIK",
   "displayWord": "NASZYJNIK",
@@ -38561,17 +36845,6 @@
   "category": "zawody",
   "difficulty": 4,
   "imageId": "a_25713",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03507",
-  "word": "NEUROPSYCHOLOŻKA",
-  "displayWord": "NEUROPSYCHOLOŻKA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_25710",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -38792,17 +37065,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_25052",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03528",
-  "word": "NIESŁYSZACY",
-  "displayWord": "NIESŁYSZACY",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_37795",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -39138,17 +37400,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03559",
-  "word": "OBRZEANIE",
-  "displayWord": "OBRZEANIE",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_36123",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03560",
   "word": "OBRZYDZENIE",
   "displayWord": "OBRZYDZENIE",
@@ -39457,17 +37708,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03588",
-  "word": "OGRANCZENIA",
-  "displayWord": "OGRANCZENIA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_38020",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03589",
   "word": "OGRODNICTWO",
   "displayWord": "OGRODNICTWO",
@@ -39540,17 +37780,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_30763",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03596",
-  "word": "OKŁADNICZKA",
-  "displayWord": "OKŁADNICZKA",
-  "category": "zwierzęta",
-  "difficulty": 4,
-  "imageId": "a_26248",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -39633,17 +37862,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03604",
-  "word": "OPTOMETRYSTA",
-  "displayWord": "OPTOMETRYSTA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_37626",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03605",
   "word": "OPUSZCZONY",
   "displayWord": "OPUSZCZONY",
@@ -39721,28 +37939,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03612",
-  "word": "ORTOPANTOMOGRAM",
-  "displayWord": "ORTOPANTOMOGRAM",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_31825",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03613",
-  "word": "ORTOPEDKA",
-  "displayWord": "ORTOPEDKA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_34237",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03614",
   "word": "OSIEMDZIESIĄT",
   "displayWord": "OSIEMDZIESIĄT",
@@ -39782,17 +37978,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_15984",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03618",
-  "word": "OSKRŻYCIEL",
-  "displayWord": "OSKRŻYCIEL",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_37667",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -39886,17 +38071,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03627",
-  "word": "OSZOŁONIOMY",
-  "displayWord": "OSZOŁONIOMY",
-  "category": "przeciwieństwa",
-  "difficulty": 4,
-  "imageId": "a_35543",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03628",
   "word": "OTOCZENIE",
   "displayWord": "OTOCZENIE",
@@ -39985,34 +38159,12 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03636",
-  "word": "PALEONTOLOŻKA",
-  "displayWord": "PALEONTOLOŻKA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_34256",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03637",
   "word": "PANCERNIK",
   "displayWord": "PANCERNIK",
   "category": "zwierzęta",
   "difficulty": 4,
   "imageId": "a_8031",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03638",
-  "word": "PANELLETS",
-  "displayWord": "PANELLETS",
-  "category": "jedzenie i napoje",
-  "difficulty": 4,
-  "imageId": "a_12299",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -40046,17 +38198,6 @@
   "category": "ubrania",
   "difficulty": 4,
   "imageId": "a_37357",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03642",
-  "word": "PANTOMOGRAM",
-  "displayWord": "PANTOMOGRAM",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_31728",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -40370,17 +38511,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03671",
-  "word": "PIONIZATOR",
-  "displayWord": "PIONIZATOR",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_11192",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03672",
   "word": "PIOSENKARKA",
   "displayWord": "PIOSENKARKA",
@@ -40486,17 +38616,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_34870",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03682",
-  "word": "PLANSZÓWKA",
-  "displayWord": "PLANSZÓWKA",
-  "category": "zabawki i zabawa",
-  "difficulty": 4,
-  "imageId": "a_2501",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -40843,17 +38962,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03714",
-  "word": "POLICJANKA",
-  "displayWord": "POLICJANKA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_11280",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03715",
   "word": "POLICJANTKA",
   "displayWord": "POLICJANTKA",
@@ -40871,17 +38979,6 @@
   "category": "czynności",
   "difficulty": 4,
   "imageId": "a_16301",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03717",
-  "word": "POLITYCZKA",
-  "displayWord": "POLITYCZKA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_11346",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -42724,28 +40821,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03885",
-  "word": "RETINOSKOP",
-  "displayWord": "RETINOSKOP",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_37610",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03886",
-  "word": "RETINOSKOPIA",
-  "displayWord": "RETINOSKOPIA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_37612",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03887",
   "word": "RODZEŃSTWO",
   "displayWord": "RODZEŃSTWO",
@@ -42950,17 +41025,6 @@
   "category": "zawody",
   "difficulty": 4,
   "imageId": "a_7246",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03906",
-  "word": "ROZSZYWACZ",
-  "displayWord": "ROZSZYWACZ",
-  "category": "szkoła i przedszkole",
-  "difficulty": 4,
-  "imageId": "a_35397",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -43181,17 +41245,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_13082",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03927",
-  "word": "SALMOREJO",
-  "displayWord": "SALMOREJO",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_37551",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -43527,17 +41580,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_03958",
-  "word": "SKOTERNIA",
-  "displayWord": "SKOTERNIA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_4605",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_03959",
   "word": "SKRZYDEŁKA",
   "displayWord": "SKRZYDEŁKA",
@@ -43566,17 +41608,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_22182",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_03962",
-  "word": "SMARTWATCH",
-  "displayWord": "SMARTWATCH",
-  "category": "ubrania",
-  "difficulty": 4,
-  "imageId": "a_31384",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -44374,28 +42405,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_04035",
-  "word": "TELEKONSULTACJA",
-  "displayWord": "TELEKONSULTACJA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_37326",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_04036",
-  "word": "TELEOPERATORKA",
-  "displayWord": "TELEOPERATORKA",
-  "category": "zawody",
-  "difficulty": 4,
-  "imageId": "a_9192",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_04037",
   "word": "TELETURNIEJ",
   "displayWord": "TELETURNIEJ",
@@ -44605,17 +42614,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_04056",
-  "word": "TRADUCCIO",
-  "displayWord": "TRADUCCIO",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_9073",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_04057",
   "word": "TRAMPOLINA",
   "displayWord": "TRAMPOLINA",
@@ -44655,28 +42653,6 @@
   "category": "zwierzęta",
   "difficulty": 4,
   "imageId": "a_27113",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_04061",
-  "word": "TRANSPŁCIOWY",
-  "displayWord": "TRANSPŁCIOWY",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_36472",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_04062",
-  "word": "TRANSSEKSUALNOŚĆ",
-  "displayWord": "TRANSSEKSUALNOŚĆ",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_11566",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -44765,17 +42741,6 @@
   "category": "czynności",
   "difficulty": 4,
   "imageId": "a_31973",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_04071",
-  "word": "TXACOLINA",
-  "displayWord": "TXACOLINA",
-  "category": "jedzenie i napoje",
-  "difficulty": 4,
-  "imageId": "a_29197",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
@@ -46090,17 +44055,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_04191",
-  "word": "ZAINTUBOWAĆ",
-  "displayWord": "ZAINTUBOWAĆ",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_30164",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_04192",
   "word": "ZAKOCHANY",
   "displayWord": "ZAKOCHANY",
@@ -46585,17 +44539,6 @@
   "imageAuthor": "Sergio Palao / ARASAAC"
  },
  {
-  "id": "ar_04236",
-  "word": "ZMARZNIETY",
-  "displayWord": "ZMARZNIETY",
-  "category": "przeciwieństwa",
-  "difficulty": 4,
-  "imageId": "a_35577",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
   "id": "ar_04237",
   "word": "ZMIESZANA",
   "displayWord": "ZMIESZANA",
@@ -46646,17 +44589,6 @@
   "category": "inne słowa",
   "difficulty": 4,
   "imageId": "a_32286",
-  "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
-  "imageLicense": "CC BY-NC-SA 4.0",
-  "imageAuthor": "Sergio Palao / ARASAAC"
- },
- {
-  "id": "ar_04242",
-  "word": "ZOOFIZJOTERAPIA",
-  "displayWord": "ZOOFIZJOTERAPIA",
-  "category": "inne słowa",
-  "difficulty": 4,
-  "imageId": "a_38141",
   "source": "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao",
   "imageLicense": "CC BY-NC-SA 4.0",
   "imageAuthor": "Sergio Palao / ARASAAC"
