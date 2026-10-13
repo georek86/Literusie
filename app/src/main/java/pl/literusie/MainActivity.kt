@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import pl.literusie.data.WordRepository
+import pl.literusie.data.packs.PackInstaller
 import pl.literusie.data.room.LiterusieDatabase
 import pl.literusie.data.room.RoomProgressStore
 import pl.literusie.domain.model.WordCatalog
@@ -34,6 +35,9 @@ import pl.literusie.ui.app.AppDeps
 import pl.literusie.ui.app.LiterusieApp
 import pl.literusie.ui.theme.LiterusieTheme
 import pl.literusie.ui.theme.Palette
+
+/** Manifest pakietów publikowany jako zasób najnowszego wydania na GitHubie. */
+private const val PACKS_MANIFEST_URL = "https://github.com/georek86/Literusie/releases/latest/download/manifest.json"
 
 class MainActivity : ComponentActivity() {
     private var speaker: AndroidSpeaker? = null
@@ -47,9 +51,12 @@ class MainActivity : ComponentActivity() {
         val speaker = AndroidSpeaker(this).also { this.speaker = it }
         val effects = AndroidSoundEffects(settings).also { this.effects = it }
         val store = RoomProgressStore(LiterusieDatabase.create(this).progressDao())
-        val repository = WordRepository {
-            assets.open("words_database.json").bufferedReader(Charsets.UTF_8).use { it.readText() }
-        }
+        val packsDir = java.io.File(filesDir, "packs")
+        val repository = WordRepository(
+            read = { assets.open("words_database.json").bufferedReader(Charsets.UTF_8).use { it.readText() } },
+            packsDir = packsDir,
+        )
+        val packs = PackInstaller(PACKS_MANIFEST_URL, packsDir, ::openHttps)
         val font = FontFamily(
             Font(R.font.nunito_semibold, FontWeight.Normal),
             Font(R.font.nunito_semibold, FontWeight.SemiBold),
@@ -75,12 +82,22 @@ class MainActivity : ComponentActivity() {
                     deps = AppDeps(
                         catalog = loaded, store = store, speaker = speaker, sounds = effects,
                         settings = settings, openVoiceSettings = ::openVoiceSettings,
+                        packs = packs, onPacksChanged = { runOnUiThread { recreate() } },
                     ),
                     font = font,
                     backHook = { enabled, onBack -> BackHandler(enabled, onBack) },
                 )
             }
         }
+    }
+
+    /** Tylko https, jawne limity czasu; przekierowania (GitHub Releases → CDN) obsługuje HttpURLConnection. */
+    private fun openHttps(url: String): java.io.InputStream {
+        require(url.startsWith("https://"))
+        val c = java.net.URL(url).openConnection() as java.net.HttpURLConnection
+        c.connectTimeout = 15_000; c.readTimeout = 30_000; c.instanceFollowRedirects = true
+        if (c.responseCode != 200) throw java.io.IOException("serwer odpowiedział ${c.responseCode}")
+        return c.inputStream
     }
 
     /** Ustawienia mowy lub instalacja danych głosowych; różne telewizory obsługują różne akcje. */

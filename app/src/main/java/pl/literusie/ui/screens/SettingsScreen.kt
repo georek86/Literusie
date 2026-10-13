@@ -18,6 +18,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import kotlinx.coroutines.launch
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
@@ -117,6 +118,7 @@ fun SettingsScreen(deps: AppDeps, onClearProgress: () -> Unit, onBack: () -> Uni
                     PillButton("Ustaw głos", deps.openVoiceSettings, modifier = Modifier.testTag("voice_settings"))
                 }
             }
+            if (deps.packs != null) PacksRow(deps)
             PillButton(
                 if (confirmClear) "Na pewno? Naciśnij jeszcze raz" else "Wyczyść postępy dziecka",
                 { if (confirmClear) { onClearProgress(); confirmClear = false } else confirmClear = true },
@@ -126,7 +128,7 @@ fun SettingsScreen(deps: AppDeps, onClearProgress: () -> Unit, onBack: () -> Uni
         Spacer(Modifier.weight(1f))
         Text(
             "Literusie działa bez internetu, bez reklam i bez kont. Postępy zapisują się tylko na tym urządzeniu.\n" +
-                "Ilustracje: Twemoji (© Twitter, Inc. i współtwórcy, CC-BY 4.0). Czcionka: Nunito (SIL OFL 1.1).",
+                "Ilustracje: Twemoji (CC-BY 4.0); piktogramy ARASAAC (Gobierno de Aragón, autor: Sergio Palao, CC BY-NC-SA 4.0 – tylko użytek niekomercyjny). Czcionka: Nunito (SIL OFL 1.1).",
             fontSize = 16.sp, color = Palette.InkSoft, textAlign = TextAlign.Start,
         )
     }
@@ -137,5 +139,33 @@ private fun SettingRow(label: String, on: Boolean, tag: String, onToggle: () -> 
     Row(verticalAlignment = Alignment.CenterVertically) {
         Text(label, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
         PillButton(if (on) "Włączone" else "Wyłączone", onToggle, primary = on, modifier = Modifier.testTag(tag))
+    }
+}
+
+/** Pobieranie dodatkowych słówek – wyłącznie tutaj (za bramką dla dorosłych), nigdy podczas nauki. */
+@Composable
+private fun PacksRow(deps: AppDeps) {
+    val scope = androidx.compose.runtime.rememberCoroutineScope()
+    var status by remember { mutableStateOf("Dodatkowe słówka: pobierane z internetu (ARASAAC), tylko na Twoje żądanie") }
+    var busy by remember { mutableStateOf(false) }
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        Text(status, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f).testTag("packs_status"))
+        PillButton(
+            if (busy) "Pobieranie…" else "Pobierz słówka",
+            {
+                if (!busy) {
+                    busy = true; status = "Pobieranie…"
+                    scope.launch {
+                        when (val r = deps.packs!!.update()) {
+                            is pl.literusie.data.packs.PackResult.Installed -> { status = "Zainstalowano pakiety: ${r.packs}"; deps.onPacksChanged() }
+                            pl.literusie.data.packs.PackResult.UpToDate -> status = "Masz już najnowsze słówka"
+                            is pl.literusie.data.packs.PackResult.Failed -> status = "Nie udało się pobrać (${r.reason}). Nauka działa dalej."
+                        }
+                        busy = false
+                    }
+                }
+            },
+            modifier = Modifier.testTag("packs_download"),
+        )
     }
 }

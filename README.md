@@ -92,3 +92,26 @@ Brak uprawnień (także INTERNET), brak analityki, `allowBackup=false`. Postępy
 - Ilustracje: **Twemoji** © Twitter, Inc. i współtwórcy, licencja **CC-BY 4.0** (wymaga uznania autorstwa – jest w aplikacji
   na ekranie głównym i w „Dla rodziców”). Etykiety słów pomocniczo z Emojibase (MIT).
 - Czcionka: Nunito (SIL OFL 1.1) – `docs/Nunito-OFL.txt`.
+
+## Dodatkowe słówka (pakiety z ARASAAC, GitHub Releases)
+
+Baza podstawowa (604 słowa) jest w aplikacji i działa bez internetu. Dalsze słówka można pobrać **tylko na żądanie
+dorosłego**: *Postępy → Dla rodziców → Pobierz słówka*. Jedyne uprawnienie aplikacji to INTERNET, używane wyłącznie do tego.
+Pobieranie: tylko https, limity rozmiaru, weryfikacja SHA-256 przed rozpakowaniem, biała lista plików (ochrona przed
+zip-slip), błąd sieci nie psuje nauki; po instalacji aplikacja przeładowuje bazę. Słowa duplikujące bazę podstawową
+albo bez obrazka są pomijane.
+
+Budowa pakietów (uruchamiasz u siebie – to środowisko nie miało dostępu do arasaac.org, więc **skrypt nie był jeszcze
+uruchomiony**):
+
+```bash
+python3 tools/arasaac/build_packs.py --dry-run        # raport: ile słów, jakie kategorie niezmapowane
+python3 tools/arasaac/build_packs.py --out dist/packs --tag packs-v1 --target 5000
+gh release create packs-v1 dist/packs/* --title "Pakiety słówek" --latest
+```
+
+Aplikacja czyta `https://github.com/georek86/Literusie/releases/latest/download/manifest.json`, więc wydanie z pakietami
+musi być oznaczone jako *latest*. **Licencja ARASAAC (CC BY-NC-SA 4.0): wyłącznie użytek niekomercyjny**, z podaniem
+autorstwa (jest w „Dla rodziców”) i tą samą licencją. Liczba 5000 będzie prawdziwa dopiero, gdy raport skryptu pokaże
+co najmniej tyle słów; filtr (pojedyncze polskie słowa, bez nazw własnych, bez treści dla dorosłych) i mapowanie
+kategorii trzeba obejrzeć po pierwszym uruchomieniu.

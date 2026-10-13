@@ -40,6 +40,10 @@ class AppDeps(
     val settings: SettingsStore,
     val clock: Clock = Clock.System,
     val openVoiceSettings: () -> Unit = {},
+    /** Pobieranie dodatkowych pakietów słówek (null = funkcja wyłączona). */
+    val packs: pl.literusie.data.packs.PackService? = null,
+    /** Wołane po zainstalowaniu pakietów – host przeładowuje bazę słów. */
+    val onPacksChanged: () -> Unit = {},
 )
 
 enum class LearnMode { CONTINUE, CATEGORY, REVIEW }

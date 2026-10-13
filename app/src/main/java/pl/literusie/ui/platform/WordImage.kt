@@ -19,11 +19,14 @@ import pl.literusie.ui.theme.Palette
 @Composable
 fun WordImage(imageId: String, modifier: Modifier, contentDescription: String?) {
     val context = LocalContext.current
+    // „pack:<pakiet>/<nazwa>” = PNG pobrany z pakietu; reszta = SVG z assets.
+    val request = if (imageId.startsWith("pack:")) {
+        ImageRequest.Builder(context).data(java.io.File(context.filesDir, "packs/${imageId.removePrefix("pack:").replace("/", "/img/")}.png")).build()
+    } else {
+        ImageRequest.Builder(context).data("file:///android_asset/illustrations/$imageId.svg").decoderFactory(SvgDecoder.Factory()).build()
+    }
     SubcomposeAsyncImage(
-        model = ImageRequest.Builder(context)
-            .data("file:///android_asset/illustrations/$imageId.svg")
-            .decoderFactory(SvgDecoder.Factory())
-            .build(),
+        model = request,
         contentDescription = contentDescription,
         contentScale = ContentScale.Fit,
         modifier = modifier,

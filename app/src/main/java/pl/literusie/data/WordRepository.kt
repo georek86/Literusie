@@ -2,6 +2,7 @@ package pl.literusie.data
 
 import org.json.JSONArray
 import org.json.JSONException
+import java.io.File
 import pl.literusie.domain.model.Word
 import pl.literusie.domain.model.WordCatalog
 
@@ -50,15 +51,39 @@ object WordParser {
     }
 }
 
-/** Czyta bazę z podanego źródła (na Androidzie: asset). Cache w pamięci. */
-class WordRepository(private val read: () -> String) {
+/**
+ * Czyta bazę podstawową (assets) i dołącza słowa z pobranych pakietów ([packsDir]/<id>/words.json).
+ * Słowo z pakietu trafia do bazy tylko, gdy jest poprawne, nie duplikuje słowa już istniejącego i ma plik obrazka
+ * (nigdy nie podstawiamy cudzej grafiki). Obrazki pakietów mają imageId w postaci „pack:<id>/<nazwa>”.
+ */
+class WordRepository(private val read: () -> String, private val packsDir: File? = null) {
     private var cached: WordCatalog? = null
     var rejected: List<String> = emptyList()
         private set
 
     fun catalog(): WordCatalog = cached ?: run {
-        val r = WordParser.parse(read())
-        rejected = r.rejected
-        WordCatalog(r.words).also { cached = it }
+        val base = WordParser.parse(read())
+        val rejects = base.rejected.toMutableList()
+        val words = base.words.toMutableList()
+        val texts = words.map { it.text }.toHashSet()
+        val ids = words.map { it.id }.toHashSet()
+        packsDir?.listFiles()?.filter { it.isDirectory && !it.name.startsWith(".") }?.sortedBy { it.name }?.forEach { pack ->
+            val json = runCatching { File(pack, "words.json").readText(Charsets.UTF_8) }.getOrNull() ?: return@forEach
+            val parsed = WordParser.parse(json)
+            rejects += parsed.rejected.map { "pakiet ${pack.name}: $it" }
+            for (w in parsed.words) {
+                val image = File(pack, "img/${w.imageId}.png")
+                when {
+                    !image.isFile -> rejects += "pakiet ${pack.name}: brak obrazka dla ${w.text}"
+                    w.text in texts || w.id in ids -> Unit // duplikat słowa z bazy podstawowej lub innego pakietu
+                    else -> {
+                        texts += w.text; ids += w.id
+                        words += w.copy(imageId = "pack:${pack.name}/${w.imageId}")
+                    }
+                }
+            }
+        }
+        rejected = rejects
+        WordCatalog(words).also { cached = it }
     }
 }

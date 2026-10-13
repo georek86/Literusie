@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Android TV: ekran dotykowy niewymagany, wymagany launcher Leanback. Brak uprawnień (nawet INTERNET). -->
+    <!-- Jedyne uprawnienie: INTERNET, używane wyłącznie do pobierania pakietów słówek z „Dla rodziców” (https). -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
     <uses-feature android:name="android.software.leanback" android:required="false" />
 
@@ -11,6 +12,7 @@
 
     <application
         android:allowBackup="false"
+        android:usesCleartextTraffic="false"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:banner="@mipmap/ic_banner"
