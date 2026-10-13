@@ -47,7 +47,9 @@ CATEGORY_MAP = {
     "musical": "inne słowa", "instrument": "inne słowa",
 }
 # Słowa i kategorie nieodpowiednie dla małego dziecka.
-BLOCK_CATEGORIES = {"christianity", "covid", "disease", "symptom", "nursing", "medical", "disruptive", "orofacial", "special education", "pronoun", "sex", "sexuality", "violence", "religion", "politics", "drug", "alcohol", "tobacco", "weapon", "war"}
+BLOCK_CATEGORIES = {"christianity", "religion", "covid-19", "disease", "symptom", "disruptive behavior", "orofacial praxis",
+                    "special education", "pronoun", "personal pronoun", "sex", "sexuality", "violence", "politics", "drug",
+                    "alcohol", "tobacco", "weapon", "war", "death", "marital status"}
 BLOCK_WORDS = {"seks", "alkohol", "papieros", "pistolet", "karabin", "wódka", "piwo", "wino", "narkotyk", "zabijać", "zabić", "śmierć"}
 
 
@@ -78,10 +80,13 @@ def map_category(cats):
 def candidates(core_texts):
     data = json.loads(get(API))
     picked, unmapped, rejected = {}, collections.Counter(), collections.Counter()
+    blocked_by = collections.Counter()
     for p in data:
         cats = [str(c) for c in p.get("categories", [])]
-        if p.get("violence") or p.get("sex") or any(b in c.lower() for c in cats for b in BLOCK_CATEGORIES):
-            rejected["kategoria/flaga nieodpowiednia"] += 1; continue
+        hit = [c.lower() for c in cats if c.lower() in BLOCK_CATEGORIES]   # dokładne dopasowanie nazwy kategorii
+        if p.get("violence") or p.get("sex") or hit:
+            rejected["kategoria/flaga nieodpowiednia"] += 1
+            blocked_by.update(hit or ["(flaga violence/sex)"]); continue
         kws = [k.get("keyword", "").strip() for k in p.get("keywords", []) if k.get("keyword")]
         if not kws:
             rejected["brak słowa"] += 1; continue
@@ -104,6 +109,7 @@ def candidates(core_texts):
         prev = picked.get(w)
         if prev is None or len(p.get("keywords", [])) < prev["nk"]:   # wybierz najbardziej jednoznaczny piktogram
             picked[w] = {"pid": p["_id"], "cat": cat, "nk": len(p.get("keywords", []))}
+    print("powody blokady kategorii:", blocked_by.most_common(15))
     return picked, unmapped, rejected
 
 
