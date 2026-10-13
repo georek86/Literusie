@@ -125,6 +125,9 @@ def bundle(words, picked):
             im = Image.open(io.BytesIO(get(IMG.format(id=picked[w]["pid"])))).convert("RGBA")
             im.thumbnail((320, 320))
             im.save(img_dir / f"{name}.webp", "WEBP", quality=80, method=6)
+            n = len(list(img_dir.glob("*.webp")))
+            if n % 100 == 0:
+                print(f"  pobrano {n} / {len(words)}", flush=True)
             return w, name
         except Exception as e:  # noqa
             print("brak obrazka:", w, e); return w, None
