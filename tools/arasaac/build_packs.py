@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[2]
 API = "https://api.arasaac.org/v1/pictograms/all/pl"
 IMG = "https://static.arasaac.org/pictograms/{id}/{id}_500.png"
 REPO = "georek86/Literusie"
-ALPHABET = set("aąbcćdeęfghijklłmnńoóprsśtuwyzźż")  # bez q, v, x – w polskich słowach dziecięcych praktycznie nie występują
+ALPHABET = set("aąbcćdeęfghijklłmnńoóprsśtuwyzźżqvx")
 SOURCE = "ARASAAC (arasaac.org), Gobierno de Aragón, autor: Sergio Palao"
 PACK_SIZE = 500
 
@@ -47,9 +47,9 @@ CATEGORY_MAP = {
     "musical": "inne słowa", "instrument": "inne słowa",
 }
 # Słowa i kategorie nieodpowiednie dla małego dziecka.
-BLOCK_CATEGORIES = {"christianity", "religion", "covid-19", "disease", "symptom", "disruptive behavior", "orofacial praxis",
-                    "special education", "pronoun", "personal pronoun", "sex", "sexuality", "violence", "politics", "drug",
-                    "alcohol", "tobacco", "weapon", "war", "death", "marital status"}
+BLOCK_CATEGORIES = {"christianity", "religion", "covid-19", "disease", "disruptive behavior", "orofacial praxis",
+                    "pronoun", "personal pronoun", "sex", "sexuality", "violence", "politics", "drug",
+                    "alcohol", "tobacco", "weapon", "war", "death"}
 BLOCK_WORDS = {"seks", "alkohol", "papieros", "pistolet", "karabin", "wódka", "piwo", "wino", "narkotyk", "zabijać", "zabić", "śmierć"}
 
 
@@ -96,7 +96,7 @@ def candidates(core_texts):
             if not kw or kw[0].isupper():
                 why = "nazwa własna/wielka litera"; continue
             c = unicodedata.normalize("NFC", kw.lower())
-            if not (2 <= len(c) <= 14) or not set(c) <= ALPHABET:
+            if not (2 <= len(c) <= 16) or not set(c) <= ALPHABET:
                 continue
             if c.upper() in core_texts or c in BLOCK_WORDS:
                 why = "duplikat bazy podstawowej/zablokowane"; continue
