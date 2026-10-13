@@ -38,9 +38,16 @@ CATEGORY_MAP = {
     "building": "miejsca i budynki", "place": "miejsca i budynki", "occupation": "zawody", "profession": "zawody",
     "school": "szkoła i przedszkole", "sport": "sport i ruch", "emotion": "emocje", "feeling": "emocje",
     "time": "czas i pory roku", "season": "czas i pory roku", "safety": "bezpieczeństwo",
+    "anatomy": "ciało człowieka", "physical features": "ciało człowieka", "gastronomy": "jedzenie i napoje",
+    "cookery": "jedzenie i napoje", "baking": "jedzenie i napoje", "beverage": "jedzenie i napoje",
+    "utensil": "dom i jego wyposażenie", "appliance": "dom i jego wyposażenie", "work tool": "dom i jego wyposażenie",
+    "construction": "miejsca i budynki", "educational": "szkoła i przedszkole", "athlete": "sport i ruch",
+    "accessories": "ubrania", "footwear": "ubrania", "seller": "zawody", "trade": "zawody", "agriculture": "zawody",
+    "signaling": "bezpieczeństwo", "adjective": "przeciwieństwa", "basic concepts": "przeciwieństwa",
+    "musical": "inne słowa", "instrument": "inne słowa",
 }
 # Słowa i kategorie nieodpowiednie dla małego dziecka.
-BLOCK_CATEGORIES = {"sex", "sexuality", "violence", "religion", "politics", "drug", "alcohol", "tobacco", "weapon", "war"}
+BLOCK_CATEGORIES = {"christianity", "covid", "disease", "symptom", "nursing", "medical", "disruptive", "orofacial", "special education", "pronoun", "sex", "sexuality", "violence", "religion", "politics", "drug", "alcohol", "tobacco", "weapon", "war"}
 BLOCK_WORDS = {"seks", "alkohol", "papieros", "pistolet", "karabin", "wódka", "piwo", "wino", "narkotyk", "zabijać", "zabić", "śmierć"}
 
 
@@ -75,17 +82,22 @@ def candidates(core_texts):
         cats = [str(c) for c in p.get("categories", [])]
         if p.get("violence") or p.get("sex") or any(b in c.lower() for c in cats for b in BLOCK_CATEGORIES):
             rejected["kategoria/flaga nieodpowiednia"] += 1; continue
-        kws = [k.get("keyword", "") for k in p.get("keywords", []) if k.get("keyword")]
+        kws = [k.get("keyword", "").strip() for k in p.get("keywords", []) if k.get("keyword")]
         if not kws:
             rejected["brak słowa"] += 1; continue
-        kw = kws[0].strip()
-        if not kw or kw[0].isupper():
-            rejected["nazwa własna/wielka litera"] += 1; continue
-        w = unicodedata.normalize("NFC", kw.lower())
-        if not (2 <= len(w) <= 14) or not set(w) <= ALPHABET:
-            rejected["nie jest pojedynczym polskim słowem"] += 1; continue
-        if w.upper() in core_texts or w in BLOCK_WORDS:
-            rejected["duplikat bazy podstawowej/zablokowane"] += 1; continue
+        # pierwsze słowo kluczowe, które jest pojedynczym, małą literą pisanym polskim słowem (nie nazwą własną)
+        w, why = None, "nie jest pojedynczym polskim słowem"
+        for kw in kws:
+            if not kw or kw[0].isupper():
+                why = "nazwa własna/wielka litera"; continue
+            c = unicodedata.normalize("NFC", kw.lower())
+            if not (2 <= len(c) <= 14) or not set(c) <= ALPHABET:
+                continue
+            if c.upper() in core_texts or c in BLOCK_WORDS:
+                why = "duplikat bazy podstawowej/zablokowane"; continue
+            w = c; break
+        if w is None:
+            rejected[why] += 1; continue
         cat = map_category(cats)
         if cat is None:
             unmapped.update(cats or ["(brak kategorii)"]); cat = "inne słowa"
