@@ -115,3 +115,7 @@ musi być oznaczone jako *latest*. **Licencja ARASAAC (CC BY-NC-SA 4.0): wyłąc
 autorstwa (jest w „Dla rodziców”) i tą samą licencją. Liczba 5000 będzie prawdziwa dopiero, gdy raport skryptu pokaże
 co najmniej tyle słów; filtr (pojedyncze polskie słowa, bez nazw własnych, bez treści dla dorosłych) i mapowanie
 kategorii trzeba obejrzeć po pierwszym uruchomieniu.
+
+**Wynik raportu `--dry-run` (autor repozytorium, własny komputer):** baza podstawowa 604 + 4272 słów z ARASAAC = **4876 słów**
+(cel 5000 nie został osiągnięty – pozostałe piktogramy mają nazwy wielowyrazowe, nazwy własne lub są odfiltrowane jako
+nieodpowiednie dla małego dziecka). Baza jest więc opisywana jako „ok. 4900 słów”, nie 5000.
