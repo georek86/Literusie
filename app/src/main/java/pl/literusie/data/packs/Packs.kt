@@ -128,7 +128,7 @@ class PackInstaller(
                     unpacked += data.size()
                     val out = File(into, e.name)
                     check(out.canonicalPath.startsWith(into.canonicalPath + File.separator)) { "ścieżka poza katalogiem" }
-                    out.parentFile.mkdirs()
+                    out.parentFile?.mkdirs()
                     out.writeBytes(data.toByteArray())
                 }
             }
