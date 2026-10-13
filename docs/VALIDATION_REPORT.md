@@ -1,46 +1,46 @@
 # Raport walidacji bazy słów
 
 - Rekordów w pliku: **604**
-- Rekordów poprawnych: **604**
-- Unikalnych słów: **604**, unikalnych ilustracji: **604**
+- Rekordów poprawnych: **4876**
+- Unikalnych słów: **4876**, unikalnych ilustracji: **604**
 - Błędów: **0**, ostrzeżeń: **0**
 
 ## Poziomy trudności
 
 | Poziom | Słów | Średnia długość |
 |---|---|---|
-| 1 | 109 | 3.7 |
-| 2 | 246 | 5.5 |
-| 3 | 163 | 7.4 |
-| 4 | 86 | 9.6 |
+| 1 | 491 | 3.7 |
+| 2 | 1455 | 5.5 |
+| 3 | 1536 | 7.5 |
+| 4 | 1394 | 10.3 |
 
 ## Kategorie (kategoria główna)
 
 | Kategoria | Słów |
 |---|---|
-| zwierzęta | 98 |
-| jedzenie i napoje | 50 |
-| dom i jego wyposażenie | 45 |
-| pojazdy i transport | 39 |
-| owoce i warzywa | 35 |
-| ubrania | 28 |
-| szkoła i przedszkole | 26 |
-| ludzie i rodzina | 25 |
+| inne słowa | 1343 |
+| czynności | 751 |
+| przeciwieństwa | 315 |
+| zawody | 311 |
+| zwierzęta | 308 |
+| dom i jego wyposażenie | 220 |
+| jedzenie i napoje | 212 |
+| miejsca i budynki | 185 |
+| sport i ruch | 146 |
+| pojazdy i transport | 137 |
+| ubrania | 136 |
+| ciało człowieka | 128 |
+| szkoła i przedszkole | 109 |
+| owoce i warzywa | 107 |
+| zabawki i zabawa | 83 |
+| rośliny | 70 |
+| ludzie i rodzina | 55 |
+| liczby i matematyka | 52 |
+| bezpieczeństwo | 51 |
+| czas i pory roku | 49 |
+| kolory i kształty | 45 |
+| emocje | 38 |
 | przyroda i pogoda | 25 |
-| czynności | 25 |
-| miejsca i budynki | 23 |
-| inne słowa | 22 |
-| zabawki i zabawa | 21 |
-| ciało człowieka | 18 |
-| sport i ruch | 17 |
-| czas i pory roku | 16 |
-| rośliny | 16 |
-| zawody | 16 |
-| emocje | 15 |
-| liczby i matematyka | 13 |
-| kolory i kształty | 13 |
-| bezpieczeństwo | 12 |
-| przeciwieństwa | 6 |
 
 ## Błędy
 
