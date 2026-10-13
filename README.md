@@ -119,3 +119,10 @@ kategorii trzeba obejrzeć po pierwszym uruchomieniu.
 **Wynik raportu `--dry-run` (autor repozytorium, własny komputer):** baza podstawowa 604 + 4272 słów z ARASAAC = **4876 słów**
 (cel 5000 nie został osiągnięty – pozostałe piktogramy mają nazwy wielowyrazowe, nazwy własne lub są odfiltrowane jako
 nieodpowiednie dla małego dziecka). Baza jest więc opisywana jako „ok. 4900 słów”, nie 5000.
+
+## Decyzja: słówka w APK (bez pobierania)
+
+Słówka i obrazki ARASAAC wchodzą **do APK**: `python tools/arasaac/build_packs.py --bundle` zapisuje
+`app/src/main/assets/words_arasaac.json` i `assets/illustrations_arasaac/*.webp` (320 px). Aplikacja nie ma wtedy
+uprawnienia INTERNET i działa w pełni offline. Kod pobierania pakietów (`data/packs`) pozostał, ale jest wyłączony.
+Uwaga licencyjna: ARASAAC to CC BY-NC-SA 4.0, więc APK z tymi obrazkami wolno rozpowszechniać wyłącznie niekomercyjnie.

@@ -113,11 +113,37 @@ def candidates(core_texts):
     return picked, unmapped, rejected
 
 
+def bundle(words, picked):
+    """Obrazki (WebP 320 px) -> app/src/main/assets/illustrations_arasaac, słowa -> words_arasaac.json."""
+    from PIL import Image
+    assets = ROOT / "app/src/main/assets"
+    img_dir = assets / "illustrations_arasaac"; img_dir.mkdir(parents=True, exist_ok=True)
+
+    def fetch(w):
+        name = f"a_{picked[w]['pid']}"
+        try:
+            im = Image.open(io.BytesIO(get(IMG.format(id=picked[w]["pid"])))).convert("RGBA")
+            im.thumbnail((320, 320))
+            im.save(img_dir / f"{name}.webp", "WEBP", quality=80, method=6)
+            return w, name
+        except Exception as e:  # noqa
+            print("brak obrazka:", w, e); return w, None
+    with ThreadPoolExecutor(6) as ex:
+        done = [r for r in ex.map(fetch, words) if r[1]]
+    recs = [{"id": f"ar_{i:05d}", "word": w.upper(), "displayWord": w.upper(), "category": picked[w]["cat"],
+             "difficulty": level(w), "imageId": name, "source": SOURCE, "imageLicense": "CC BY-NC-SA 4.0",
+             "imageAuthor": "Sergio Palao / ARASAAC"} for i, (w, name) in enumerate(done, 1)]
+    (assets / "words_arasaac.json").write_text(json.dumps(recs, ensure_ascii=False, indent=1), encoding="utf-8")
+    size = sum(f.stat().st_size for f in img_dir.glob("*.webp")) / 1e6
+    print(f"zapisano {len(recs)} słów i obrazków ({size:.0f} MB) w {assets}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="dist/packs"); ap.add_argument("--tag", default="packs-v1")
     ap.add_argument("--target", type=int, default=5000, help="docelowa liczba słów łącznie z bazą podstawową")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--bundle", action="store_true", help="zapisz słowa i obrazki WEWNĄTRZ aplikacji (assets) zamiast pakietów do wydania")
     a = ap.parse_args()
 
     core = json.loads((ROOT / "app/src/main/assets/words_database.json").read_text(encoding="utf-8"))
@@ -133,6 +159,8 @@ def main():
         print(f"UWAGA: osiągnięto tylko {len(core) + len(words)} z {a.target} – nie deklaruj 5000.")
     if a.dry_run:
         return
+    if a.bundle:
+        return bundle(words, picked)
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
     try:
         from PIL import Image

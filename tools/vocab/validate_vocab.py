@@ -47,6 +47,18 @@ def main():
         lengths[r["difficulty"]].append(len(w))
         ok += 1
 
+    extra = ASSETS / "words_arasaac.json"
+    if extra.is_file():
+        for i, r in enumerate(json.loads(extra.read_text(encoding="utf-8"))):
+            where = f"arasaac {i} ({r.get('word', '?')})"
+            if not all(str(r.get(k, "")).strip() for k in REQUIRED):
+                errors.append(f"{where}: brak pól"); continue
+            if not set(r["word"]) <= ALPHABET: errors.append(f"{where}: znaki spoza alfabetu")
+            if r["word"] in seen_word: errors.append(f"{where}: duplikat słowa"); continue
+            seen_word.add(r["word"])
+            if not (ASSETS / "illustrations_arasaac" / f"{r['imageId']}.webp").is_file():
+                errors.append(f"{where}: brak obrazka")
+            cats[r["category"]] += 1; levels[r["difficulty"]] += 1; lengths[r["difficulty"]].append(len(r["word"])); ok += 1
     files = {p.stem for p in (ASSETS / "illustrations").glob("*.svg")}
     orphans = sorted(files - seen_img)
     if orphans:

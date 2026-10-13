@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Jedyne uprawnienie: INTERNET, używane wyłącznie do pobierania pakietów słówek z „Dla rodziców” (https). -->
-    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Brak uprawnień (także INTERNET): wszystko jest w APK. -->
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
     <uses-feature android:name="android.software.leanback" android:required="false" />
 

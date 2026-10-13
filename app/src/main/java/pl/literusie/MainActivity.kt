@@ -24,7 +24,6 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import pl.literusie.data.WordRepository
-import pl.literusie.data.packs.PackInstaller
 import pl.literusie.data.room.LiterusieDatabase
 import pl.literusie.data.room.RoomProgressStore
 import pl.literusie.domain.model.WordCatalog
@@ -54,9 +53,9 @@ class MainActivity : ComponentActivity() {
         val packsDir = java.io.File(filesDir, "packs")
         val repository = WordRepository(
             read = { assets.open("words_database.json").bufferedReader(Charsets.UTF_8).use { it.readText() } },
-            packsDir = packsDir,
+            packsDir = null,
+            readExtra = { assets.open("words_arasaac.json").bufferedReader(Charsets.UTF_8).use { it.readText() } },
         )
-        val packs = PackInstaller(PACKS_MANIFEST_URL, packsDir, ::openHttps)
         val font = FontFamily(
             Font(R.font.nunito_semibold, FontWeight.Normal),
             Font(R.font.nunito_semibold, FontWeight.SemiBold),
@@ -82,7 +81,7 @@ class MainActivity : ComponentActivity() {
                     deps = AppDeps(
                         catalog = loaded, store = store, speaker = speaker, sounds = effects,
                         settings = settings, openVoiceSettings = ::openVoiceSettings,
-                        packs = packs, onPacksChanged = { runOnUiThread { recreate() } },
+                        // Pobieranie pakietów wyłączone: słówka są w APK (words_arasaac.json). Kod PackInstaller zostaje do ewentualnego użycia.
                     ),
                     font = font,
                     backHook = { enabled, onBack -> BackHandler(enabled, onBack) },

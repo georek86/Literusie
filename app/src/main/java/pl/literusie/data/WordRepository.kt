@@ -56,7 +56,12 @@ object WordParser {
  * Słowo z pakietu trafia do bazy tylko, gdy jest poprawne, nie duplikuje słowa już istniejącego i ma plik obrazka
  * (nigdy nie podstawiamy cudzej grafiki). Obrazki pakietów mają imageId w postaci „pack:<id>/<nazwa>”.
  */
-class WordRepository(private val read: () -> String, private val packsDir: File? = null) {
+class WordRepository(
+    private val read: () -> String,
+    private val packsDir: File? = null,
+    /** Drugi plik słów wbudowany w aplikację (ARASAAC); null/wyjątek = brak. Obrazki: assets/illustrations_arasaac. */
+    private val readExtra: (() -> String)? = null,
+) {
     private var cached: WordCatalog? = null
     var rejected: List<String> = emptyList()
         private set
@@ -67,6 +72,14 @@ class WordRepository(private val read: () -> String, private val packsDir: File?
         val words = base.words.toMutableList()
         val texts = words.map { it.text }.toHashSet()
         val ids = words.map { it.id }.toHashSet()
+        readExtra?.let { r ->
+            val extra = runCatching { r() }.getOrNull()
+            if (extra != null) {
+                val parsed = WordParser.parse(extra)
+                rejects += parsed.rejected.map { "words_arasaac: $it" }
+                for (w in parsed.words) if (texts.add(w.text) && ids.add(w.id)) words += w
+            }
+        }
         packsDir?.listFiles()?.filter { it.isDirectory && !it.name.startsWith(".") }?.sortedBy { it.name }?.forEach { pack ->
             val json = runCatching { File(pack, "words.json").readText(Charsets.UTF_8) }.getOrNull() ?: return@forEach
             val parsed = WordParser.parse(json)
