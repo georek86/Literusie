@@ -29,32 +29,33 @@ class LearningFlowTest {
         val fx = twoWordFixture()
         setTv { LiterusieApp(fx.deps, font = NUNITO, initial = Screen.Learning(LearnMode.CONTINUE)) }
         settle()
-        onNodeWithTag("caption").assertTextEquals("KOT")
+        val first = caption()                                         // KOT albo LIS (kolejność jest losowa)
+        val second = listOf("KOT", "LIS").single { it != first }
         onNodeWithTag("progress_text").assertTextEquals("0 z 3 liter")
-        assertEquals(listOf("kot"), fx.speaker.spoken)           // wymowa małymi literami, raz
+        assertEquals(listOf(first.lowercase()), fx.speaker.spoken)   // wymowa małymi literami, raz
 
-        typeKeys("k")
+        typeKeys(first.take(1))
         onNodeWithTag("progress_text").assertTextEquals("1 z 3 liter")
 
-        typeKeys("t")                                              // błąd – postęp zostaje
+        typeKeys("q")                                                 // błąd – postęp zostaje
         onNodeWithTag("progress_text").assertTextEquals("1 z 3 liter")
-        onNodeWithTag("message").assertTextEquals("Prawie! Poszukaj literki O")
+        onNodeWithTag("message").assertTextEquals("Prawie! Poszukaj literki ${first[1]}")
 
         press(Key.Backspace)
         onNodeWithTag("progress_text").assertTextEquals("0 z 3 liter")
 
-        typeKeys("kot")
+        typeKeys(first)
         onNodeWithTag("message").assertTextEquals("Brawo!")
 
         // w czasie pauzy sukcesu przypadkowe klawisze nic nie wpisują do kolejnego słowa
-        typeKeys("lis")
+        typeKeys(second)
         mainClock.advanceTimeBy(1_600)
-        settle()
-        onNodeWithTag("caption").assertTextEquals("LIS")
+        waitForIdle()
+        onNodeWithTag("caption").assertTextEquals(second)
         onNodeWithTag("progress_text").assertTextEquals("0 z 3 liter")
-        assertEquals(listOf("kot", "lis"), fx.speaker.spoken)
+        assertEquals(listOf(first.lowercase(), second.lowercase()), fx.speaker.spoken)
 
-        val saved = runBlocking { fx.store.loadAll() }.getValue("kot")
+        val saved = runBlocking { fx.store.loadAll() }.getValue(first.lowercase())
         assertEquals(1, saved.completions)
         assertEquals(1, saved.errors)
         assertEquals(WordStatus.LEARNING, saved.status)
@@ -75,12 +76,13 @@ class LearningFlowTest {
         val fx = twoWordFixture()
         setTv { LiterusieApp(fx.deps, font = NUNITO, initial = Screen.Learning(LearnMode.CONTINUE)) }
         settle()
-        typeKeys("ko")
+        val word = caption()
+        typeKeys(word.take(2))
         onNodeWithTag("replay").performClick()
-        settle()
-        assertEquals(listOf("kot", "kot"), fx.speaker.spoken)
+        waitForIdle()
+        assertEquals(listOf(word.lowercase(), word.lowercase()), fx.speaker.spoken)
         onNodeWithTag("progress_text").assertTextEquals("2 z 3 liter")
-        typeKeys("t")
+        typeKeys(word.drop(2))
         onNodeWithTag("message").assertTextEquals("Brawo!")
     }
 
@@ -90,7 +92,7 @@ class LearningFlowTest {
         setTv { LiterusieApp(fx.deps, font = NUNITO, initial = Screen.Learning(LearnMode.CONTINUE)) }
         settle()
         onNodeWithTag("voice_warning").assertIsDisplayed()
-        typeKeys("kot")
+        typeKeys(caption())
         onNodeWithTag("message").assertTextEquals("Brawo!")
     }
 

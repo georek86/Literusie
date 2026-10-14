@@ -132,3 +132,8 @@ Uwaga licencyjna: ARASAAC to CC BY-NC-SA 4.0, więc APK z tymi obrazkami wolno r
 hunspell języka polskiego. Wyłapało błędy źródła ARASAAC (np. „POKO” zamiast „POKÓJ”) oraz 187 słów obcych lub
 spoza słownika (QUINOA, TETRIS, AUDITORIUM…) – zostały usunięte. Słownik nie wykryje poprawnych, ale nietrafnych
 słów ani złych form fleksyjnych; to wymaga przeglądu człowieka.
+
+### Kolejność słów
+Każda runda to 10 słów **losowanych** z puli 40 najbliższych, nowych słów (poziomy trudności rosnąco, kategorie na
+przemian), więc kolejność jest za każdym razem inna, a trudność rośnie stopniowo. Tryb „Powtarzamy” losuje spośród
+najstarszych/zaległych poznanych słów. Losowanie jest wstrzykiwane (`Random`), więc testy są deterministyczne.

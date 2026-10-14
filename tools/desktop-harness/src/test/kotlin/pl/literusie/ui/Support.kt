@@ -4,6 +4,7 @@ import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.SemanticsNodeInteractionsProvider
 import androidx.compose.ui.test.DesktopComposeUiTest
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performKeyInput
 import androidx.compose.ui.test.pressKey
@@ -107,3 +108,8 @@ val NUNITO: androidx.compose.ui.text.font.FontFamily = run {
         f("nunito_black", androidx.compose.ui.text.font.FontWeight.Black),
     )
 }
+
+/** Słowo aktualnie pokazane na ekranie nauki (kolejność słów jest losowa, więc testy czytają je z ekranu). */
+@OptIn(ExperimentalTestApi::class)
+fun DesktopComposeUiTest.caption(): String =
+    onNodeWithTag("caption").fetchSemanticsNode().config[androidx.compose.ui.semantics.SemanticsProperties.Text].first().text
