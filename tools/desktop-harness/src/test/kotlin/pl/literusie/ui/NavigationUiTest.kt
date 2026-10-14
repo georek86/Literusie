@@ -46,8 +46,8 @@ class NavigationUiTest {
         press(Key.Enter)
         mainClock.advanceTimeBy(500); waitForIdle()
         onNodeWithTag("caption").assertIsDisplayed()
-        val word = fx.catalog.words.first { it.inCategory(fx.catalog.categories[1].name) && it.difficulty == 1 }
-        onNodeWithTag("caption").assertTextEquals(word.text)
+        // kolejność jest losowa: na ekranie ma być któreś słowo z wybranej kategorii
+        assertTrue(caption() in fx.catalog.words.filter { it.inCategory(fx.catalog.categories[1].name) }.map { it.text })
     }
 
     @Test fun `do ostatniej kategorii da sie dojechac strzalkami i wybrac`() = runDesktopComposeUiTest(1920, 1080) {
